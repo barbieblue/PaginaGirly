@@ -34,3 +34,6 @@ E:\probabilidad\PaginaGirly\PaginaGirly\obj\Debug\net8.0\refint\PaginaGirly.dll
 E:\probabilidad\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.pdb
 E:\probabilidad\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.genruntimeconfig.cache
 E:\probabilidad\PaginaGirly\PaginaGirly\obj\Debug\net8.0\ref\PaginaGirly.dll
+E:\probabilidad\PaginaGirly\PaginaGirly\bin\Debug\net8.0\SubastaYa.Dominio.dll
+E:\probabilidad\PaginaGirly\PaginaGirly\bin\Debug\net8.0\SubastaYa.Dominio.pdb
+E:\probabilidad\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.sourcelink.json
