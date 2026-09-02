@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SubastaYa.Dominio
 {
-    internal class Auditoria_Log
+    public class Auditoria_Log
     {
         public int Id { get; set; }
         public string Entidad { get; set; }   

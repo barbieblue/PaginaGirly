@@ -14,3 +14,21 @@ E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\refint\SubastaYa.Infraestructura.dll
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.pdb
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\ref\SubastaYa.Infraestructura.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Infraestructura.deps.json
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Infraestructura.runtimeconfig.json
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Infraestructura.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Infraestructura.pdb
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Dominio.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Dominio.pdb
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.csproj.AssemblyReference.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.AssemblyInfoInputs.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.AssemblyInfo.cs
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.csproj.CoreCompileInputs.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.sourcelink.json
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaY.AD5E873B.Up2Date
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\refint\SubastaYa.Infraestructura.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.pdb
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.genruntimeconfig.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\ref\SubastaYa.Infraestructura.dll
