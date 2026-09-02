@@ -43,7 +43,6 @@ D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.Gen
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.AssemblyInfoInputs.cache
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.AssemblyInfo.cs
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.csproj.CoreCompileInputs.cache
-D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.MvcApplicationPartsAssemblyInfo.cs
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.MvcApplicationPartsAssemblyInfo.cache
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.sourcelink.json
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.dll
@@ -115,3 +114,5 @@ D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\staticwebassets
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGi.035285D6.Up2Date
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.genruntimeconfig.cache
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\ref\PaginaGirly.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\bin\Debug\net8.0\SubastaYa.Servicios.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\bin\Debug\net8.0\SubastaYa.Servicios.pdb

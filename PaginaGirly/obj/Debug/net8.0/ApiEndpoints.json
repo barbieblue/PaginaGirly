@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "ContainingType": "PaginaGirly.Controllers.SubastasController",
+    "Method": "GetSubastas",
+    "RelativePath": "api/Subastas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estado",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaginaGirly.Controllers.SubastasController",
+    "Method": "RegistrarPuja",
+    "RelativePath": "api/Subastas/{id}/bids",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PaginaGirly.Controllers.SubastasController\u002BNuevaPujaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
