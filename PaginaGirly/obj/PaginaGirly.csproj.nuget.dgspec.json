@@ -28,6 +28,9 @@
             "projectReferences": {
               "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj": {
                 "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj"
+              },
+              "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj": {
+                "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj"
               }
             }
           }
@@ -196,6 +199,72 @@
               "version": "[8.0.0, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj",
+        "projectName": "SubastaYa.Servicios",
+        "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj",
+        "packagesPath": "C:\\Users\\MI PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MI PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj": {
+                "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj"
+              },
+              "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj": {
+                "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",

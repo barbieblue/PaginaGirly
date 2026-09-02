@@ -1,0 +1,6 @@
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.csproj.AssemblyReference.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.AssemblyInfoInputs.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.AssemblyInfo.cs
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.csproj.CoreCompileInputs.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.sourcelink.json

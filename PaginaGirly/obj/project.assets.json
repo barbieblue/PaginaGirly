@@ -1072,6 +1072,20 @@
         "runtime": {
           "bin/placeholder/SubastaYa.Infraestructura.dll": {}
         }
+      },
+      "SubastaYa.Servicios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SubastaYa.Dominio": "1.0.0",
+          "SubastaYa.Infraestructura": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SubastaYa.Servicios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SubastaYa.Servicios.dll": {}
+        }
       }
     }
   },
@@ -3121,11 +3135,17 @@
       "type": "project",
       "path": "../SubastaYa.Infraestructura/SubastaYa.Infraestructura.csproj",
       "msbuildProject": "../SubastaYa.Infraestructura/SubastaYa.Infraestructura.csproj"
+    },
+    "SubastaYa.Servicios/1.0.0": {
+      "type": "project",
+      "path": "../SubastaYa.Servicios/SubastaYa.Servicios.csproj",
+      "msbuildProject": "../SubastaYa.Servicios/SubastaYa.Servicios.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "SubastaYa.Infraestructura >= 1.0.0",
+      "SubastaYa.Servicios >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -3156,6 +3176,9 @@
           "projectReferences": {
             "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj": {
               "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj"
+            },
+            "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj": {
+              "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj"
             }
           }
         }

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;      // necesario para AddDbContext y UseSqlServer
 using SubastaYa.Infraestructura;          // necesario para poder usar la clase SubastaYaDbContext
+using SubastaYa.Servicios;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,10 @@ builder.Services.AddSwaggerGen();
 // que definimos en appsettings.json bajo la clave "DefaultConnection".
 builder.Services.AddDbContext<SubastaYaDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<PujaService>();  // CAMBIO
+builder.Services.AddScoped<CatalogoService>(); // CAMBIO
+
 
 var app = builder.Build();  // a partir de acá ya no se pueden registrar más servicios
 

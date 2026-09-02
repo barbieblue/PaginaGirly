@@ -1,0 +1,346 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|d:\\desktop\\proyecto bar\\paginagirly\\paginagirly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|solutionrelative:paginagirly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\subastaya.dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\subastaya.dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\subastaya.infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\subastaya.infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\catalogoservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\catalogoservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\pujaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\pujaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|d:\\desktop\\proyecto bar\\paginagirly\\paginagirly\\controllers\\subastascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|solutionrelative:paginagirly\\controllers\\subastascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|d:\\desktop\\proyecto bar\\paginagirly\\paginagirly\\paginagirly.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|solutionrelative:paginagirly\\paginagirly.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|d:\\desktop\\proyecto bar\\paginagirly\\paginagirly\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|solutionrelative:paginagirly\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|d:\\desktop\\proyecto bar\\paginagirly\\paginagirly\\paginagirly.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|solutionrelative:paginagirly\\paginagirly.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\subasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\subasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\puja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\puja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\auditoria_log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\auditoria_log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\transaccion_ledger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\transaccion_ledger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\billetera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\billetera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|d:\\desktop\\proyecto bar\\paginagirly\\paginagirly\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|solutionrelative:paginagirly\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\subastayadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\subastayadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 353,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubastaYa.Dominio",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
+              "RelativeToolTip": "SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T23:13:39.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatalogoService.cs.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\CatalogoService.cs.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\CatalogoService.cs.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\CatalogoService.cs.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\CatalogoService.cs.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:59:58.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SubastasController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Controllers\\SubastasController.cs",
+              "RelativeDocumentMoniker": "PaginaGirly\\Controllers\\SubastasController.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Controllers\\SubastasController.cs",
+              "RelativeToolTip": "PaginaGirly\\Controllers\\SubastasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:55:02.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PujaService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\PujaService.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\PujaService.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\PujaService.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\PujaService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAD4vyEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:50:21.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Program.cs",
+              "RelativeDocumentMoniker": "PaginaGirly\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Program.cs",
+              "RelativeToolTip": "PaginaGirly\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T21:53:28.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Subasta.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Subasta.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Subasta.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Subasta.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Subasta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:01:10.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubastaYa.Infraestructura.csproj",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T21:56:05.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Auditoria_Log.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Auditoria_Log.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Auditoria_Log.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Auditoria_Log.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Auditoria_Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:01:30.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaginaGirly.csproj",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj",
+              "RelativeDocumentMoniker": "PaginaGirly\\PaginaGirly.csproj",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj",
+              "RelativeToolTip": "PaginaGirly\\PaginaGirly.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T21:53:25.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaginaGirly.http",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\PaginaGirly.http",
+              "RelativeDocumentMoniker": "PaginaGirly\\PaginaGirly.http",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\PaginaGirly.http",
+              "RelativeToolTip": "PaginaGirly\\PaginaGirly.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-09-02T21:53:57.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\appsettings.json",
+              "RelativeDocumentMoniker": "PaginaGirly\\appsettings.json",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\appsettings.json",
+              "RelativeToolTip": "PaginaGirly\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-02T21:53:58.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Transaccion_Ledger.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Transaccion_Ledger.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Transaccion_Ledger.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Transaccion_Ledger.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Transaccion_Ledger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:01:06.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Usuario.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Usuario.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Usuario.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:01:00.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Puja.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Puja.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Puja.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Puja.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Puja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:01:15.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Billetera.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Billetera.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Billetera.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Billetera.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Billetera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:01:25.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Categoria.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Categoria.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:01:20.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SubastaYaDbContext.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYaDbContext.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\SubastaYaDbContext.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYaDbContext.cs",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\SubastaYaDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:02:14.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PaginaGirly\\appsettings.Development.json",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\appsettings.Development.json",
+              "RelativeToolTip": "PaginaGirly\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-02T22:04:10.923Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 116,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 323,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
