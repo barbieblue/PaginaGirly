@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SubastaYa.Dominio\SubastaYa.Dominio.csproj" />
+    <ProjectReference Include="..\SubastaYa.Infraestructura\SubastaYa.Infraestructura.csproj" />
   </ItemGroup>
 
 </Project>

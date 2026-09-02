@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "E:\\probabilidad\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj": {}
+    "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj": {}
   },
   "projects": {
-    "E:\\probabilidad\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj": {
+    "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\probabilidad\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj",
+        "projectUniqueName": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj",
         "projectName": "PaginaGirly",
-        "projectPath": "E:\\probabilidad\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj",
-        "packagesPath": "C:\\Users\\Tuana\\.nuget\\packages\\",
-        "outputPath": "E:\\probabilidad\\PaginaGirly\\PaginaGirly\\obj\\",
+        "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj",
+        "packagesPath": "C:\\Users\\MI PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\visualnoseq\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tuana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\MI PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\probabilidad\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj": {
-                "projectPath": "E:\\probabilidad\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj"
+              "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj": {
+                "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj"
               }
             }
           }
@@ -48,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -70,24 +64,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.28, 8.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.28, 8.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.28, 8.0.28]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.28, 8.0.28]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,33 +72,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\probabilidad\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj": {
+    "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\probabilidad\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
+        "projectUniqueName": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
         "projectName": "SubastaYa.Dominio",
-        "projectPath": "E:\\probabilidad\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Tuana\\.nuget\\packages\\",
-        "outputPath": "E:\\probabilidad\\PaginaGirly\\SubastaYa.Dominio\\obj\\",
+        "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
+        "packagesPath": "C:\\Users\\MI PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\visualnoseq\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tuana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\MI PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -140,7 +110,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -156,26 +126,93 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.28, 8.0.28]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.28, 8.0.28]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.28, 8.0.28]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
+        "projectName": "SubastaYa.Infraestructura",
+        "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
+        "packagesPath": "C:\\Users\\MI PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MI PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj": {
+                "projectPath": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
