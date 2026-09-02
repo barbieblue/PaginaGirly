@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SubastaYa.Infraestructura; // Tu DbContext
+using SubastaYa.Infraestructura;
 
 namespace SubastaYa.Servicios
 {
@@ -12,36 +12,33 @@ namespace SubastaYa.Servicios
             _context = context;
         }
 
-        // Método para obtener el listado filtrado
         public async Task<object> ObtenerSubastasAsync(string estado = null, string categoria = null)
         {
-            // Empezamos armando la consulta básica
-            var query = _context.Subastas.AsQueryable();
+            var query = _context.Subastas.Include(s => s.Categoria).AsQueryable();
 
-            // 1. Filtro por Estado (Ej: "ACTIVA", "PROXIMA", "FINALIZADA")
+            // Filtro por Estado
             if (!string.IsNullOrEmpty(estado))
             {
                 query = query.Where(s => s.Estado == estado.ToUpper());
             }
 
-            // 2. Filtro por Categoría
+            // Filtro por Categoría (ahora navegamos a la propiedad Nombre de la entidad Categoria)
             if (!string.IsNullOrEmpty(categoria))
             {
-                query = query.Where(s => s.Categoria.Contains(categoria));
+                query = query.Where(s => s.Categoria.Nombre.Contains(categoria));
             }
 
-            // 3. Seleccionamos solo los datos necesarios para las Cards del Frontend (como pide el PDF)
-            // Calculamos "al vuelo" la cantidad de ofertas y la puja más alta
             var subastas = await query
                 .Select(s => new
                 {
                     s.Id,
                     s.Titulo,
-                    s.Categoria,
-                    s.FechaFin,
+                    Categoria = s.Categoria.Nombre,
+                    s.Fecha_Fin,
                     s.Estado,
-                    CantidadOfertas = _context.Pujas.Count(p => p.SubastaId == s.Id),
-                    OfertaMasAlta = _context.Pujas.Where(p => p.SubastaId == s.Id).Max(p => (decimal?)p.Monto) ?? s.PrecioBase
+                    s.Url_Imagen,
+                    CantidadOfertas = _context.Pujas.Count(p => p.Subasta_Id == s.Id),
+                    OfertaMasAlta = _context.Pujas.Where(p => p.Subasta_Id == s.Id).Max(p => (decimal?)p.Monto) ?? s.Precio_Base
                 })
                 .ToListAsync();
 
