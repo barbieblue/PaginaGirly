@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SubastaYa.Dominio
 {
-    internal class Puja
+    public class Puja
     {
         public int Id { get; set; }
         public int Subasta_Id { get; set; }

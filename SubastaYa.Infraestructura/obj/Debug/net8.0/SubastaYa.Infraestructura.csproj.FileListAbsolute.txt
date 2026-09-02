@@ -1,4 +1,5 @@
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Infraestructura.deps.json
+E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Infraestructura.runtimeconfig.json
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Infraestructura.dll
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Infraestructura.pdb
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\bin\Debug\net8.0\SubastaYa.Dominio.dll
@@ -13,4 +14,5 @@ E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaY.
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.dll
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\refint\SubastaYa.Infraestructura.dll
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.pdb
+E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\SubastaYa.Infraestructura.genruntimeconfig.cache
 E:\probabilidad\PaginaGirly\SubastaYa.Infraestructura\obj\Debug\net8.0\ref\SubastaYa.Infraestructura.dll
