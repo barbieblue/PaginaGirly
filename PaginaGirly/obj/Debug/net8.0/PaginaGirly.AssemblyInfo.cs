@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaginaGirly")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a474e52b7ed929db6f42166db7ad3ce97bf0adf")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaginaGirly")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaginaGirly")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

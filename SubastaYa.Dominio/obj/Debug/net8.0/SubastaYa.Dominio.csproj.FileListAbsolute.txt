@@ -1,0 +1,12 @@
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\bin\Debug\net8.0\SubastaYa.Dominio.deps.json
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\bin\Debug\net8.0\SubastaYa.Dominio.dll
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\bin\Debug\net8.0\SubastaYa.Dominio.pdb
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.AssemblyInfoInputs.cache
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.AssemblyInfo.cs
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.csproj.CoreCompileInputs.cache
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.sourcelink.json
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.dll
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\refint\SubastaYa.Dominio.dll
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.pdb
+E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\ref\SubastaYa.Dominio.dll
