@@ -15,4 +15,23 @@ public class SubastaYaDbContext : DbContext
     public DbSet<Puja> Pujas { get; set; }
     public DbSet<Transaccion_Ledger> Transacciones { get; set; }
     public DbSet<Auditoria_Log> AuditoriaLogs { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        // Evita el ciclo: al borrar un Usuario, no cascadear el borrado de sus Pujas
+        // (la cascada por Subasta -> Puja sí se mantiene).
+        modelBuilder.Entity<Puja>()
+            .HasOne(p => p.Comprador)
+            .WithMany()
+            .HasForeignKey(p => p.Comprador_Id)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        // Evita el ciclo: al borrar un Usuario, no cascadear el borrado de Transacciones
+        // vía Subasta (la cascada por Billetera -> Transaccion sí se mantiene).
+        modelBuilder.Entity<Transaccion_Ledger>()
+            .HasOne(t => t.Subasta)
+            .WithMany()
+            .HasForeignKey(t => t.Subasta_Id)
+            .OnDelete(DeleteBehavior.Restrict);
+    }
 }
