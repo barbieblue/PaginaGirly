@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubastaYa.Infraestructura")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c4f7922f44904348f9cceb36e883b3fb4489495")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aa6a247468dbc5f171b6079e1bb398bcc4d1aac")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubastaYa.Infraestructura")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubastaYa.Infraestructura")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
