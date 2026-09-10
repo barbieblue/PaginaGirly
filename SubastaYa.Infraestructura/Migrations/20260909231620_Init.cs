@@ -31,7 +31,7 @@ namespace SubastaYa.Infraestructura.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Password_Hash = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Fecha_Registro = table.Column<DateTime>(type: "datetime2", nullable: false)
@@ -71,10 +71,9 @@ namespace SubastaYa.Infraestructura.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Usuario_Id = table.Column<int>(type: "int", nullable: false),
-                    Saldo_Total = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Saldo_Retenido = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Saldo_Disponible = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Version = table.Column<byte[]>(type: "varbinary(max)", nullable: false)
+                    Saldo_Total = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
+                    Saldo_Retenido = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
+                    Version = table.Column<byte[]>(type: "rowversion", rowVersion: true, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -98,12 +97,12 @@ namespace SubastaYa.Infraestructura.Migrations
                     Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Url_Imagen = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Precio_Base = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Incremento_Minimo = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Precio_Base = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
+                    Incremento_Minimo = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
                     Fecha_Inicio = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Fecha_Fin = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Estado = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Version = table.Column<byte[]>(type: "varbinary(max)", nullable: false)
+                    Version = table.Column<byte[]>(type: "rowversion", rowVersion: true, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -130,7 +129,7 @@ namespace SubastaYa.Infraestructura.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Subasta_Id = table.Column<int>(type: "int", nullable: false),
                     Comprador_Id = table.Column<int>(type: "int", nullable: false),
-                    Monto = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Monto = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
                     Fecha_Puja = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
@@ -158,7 +157,7 @@ namespace SubastaYa.Infraestructura.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Billetera_Id = table.Column<int>(type: "int", nullable: false),
                     Tipo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Monto = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Monto = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
                     Fecha = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Subasta_Id = table.Column<int>(type: "int", nullable: true)
                 },
@@ -187,7 +186,8 @@ namespace SubastaYa.Infraestructura.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Billeteras_Usuario_Id",
                 table: "Billeteras",
-                column: "Usuario_Id");
+                column: "Usuario_Id",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Pujas_Comprador_Id",
@@ -218,6 +218,12 @@ namespace SubastaYa.Infraestructura.Migrations
                 name: "IX_Transacciones_Subasta_Id",
                 table: "Transacciones",
                 column: "Subasta_Id");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Usuarios_Email",
+                table: "Usuarios",
+                column: "Email",
+                unique: true);
         }
 
         /// <inheritdoc />

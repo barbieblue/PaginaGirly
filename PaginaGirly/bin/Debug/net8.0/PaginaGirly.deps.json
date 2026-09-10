@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "SubastaYa.Infraestructura": "1.0.0",
+          "SubastaYa.Servicios": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -767,6 +768,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "SubastaYa.Servicios/1.0.0": {
+        "dependencies": {
+          "SubastaYa.Dominio": "1.0.0",
+          "SubastaYa.Infraestructura": "1.0.0"
+        },
+        "runtime": {
+          "SubastaYa.Servicios.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1111,6 +1124,11 @@
       "sha512": ""
     },
     "SubastaYa.Infraestructura/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SubastaYa.Servicios/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

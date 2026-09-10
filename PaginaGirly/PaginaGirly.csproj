@@ -6,6 +6,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
+	<!-- Paquetes NuGet que usa este proyecto -->
 	<ItemGroup>
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
@@ -14,12 +15,10 @@
 		</PackageReference>
 	</ItemGroup>
 
-	<ItemGroup>
-		<Folder Include="Controllers\" />
-	</ItemGroup>
-
+	<!-- A qué otros proyectos de la solución está conectado este -->
 	<ItemGroup>
 		<ProjectReference Include="..\SubastaYa.Infraestructura\SubastaYa.Infraestructura.csproj" />
+		<ProjectReference Include="..\SubastaYa.Servicios\SubastaYa.Servicios.csproj" />
 	</ItemGroup>
 
 </Project>

@@ -1,34 +1,43 @@
 using Microsoft.EntityFrameworkCore;      // necesario para AddDbContext y UseSqlServer
-using SubastaYa.Infraestructura;          // necesario para poder usar la clase SubastaYaDbContext
+using SubastaYa.Infraestructura;          // para usar la clase SubastaYaDbContext
+using SubastaYa.Servicios;                // para usar PujaService y CatalogoService
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Registramos el DbContext como servicio disponible para toda la app.
-// Le decimos que use SQL Server, y le pasamos la cadena de conexi√≥n
-// que definimos en appsettings.json bajo la clave "DefaultConnection".
+// Registra el DbContext, usando la cadena de conexiÛn del appsettings.json
 builder.Services.AddDbContext<SubastaYaDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-var app = builder.Build();  // a partir de ac√° ya no se pueden registrar m√°s servicios
+// Registra los servicios de la capa Application (casos de uso) para que
+// el Controller pueda "pedirlos" por inyecciÛn de dependencias en su constructor.
+builder.Services.AddScoped<PujaService>();
+builder.Services.AddScoped<CatalogoService>();
+builder.Services.AddScoped<BilleteraService>();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+var app = builder.Build();  // a partir de ac· ya no se pueden registrar m·s servicios
+
+
+
+// Al arrancar, si la base est· vacÌa, la llenamos con los datos de prueba del TP.
+
+using (var scope = app.Services.CreateScope())
 {
-    app.UseSwagger();       // genera el JSON de OpenAPI
-    app.UseSwaggerUI();     // genera la p√°gina visual de Swagger que ya viste antes
+    var context = scope.ServiceProvider.GetRequiredService<SubastaYaDbContext>();
+    SeedData.Inicializar(context);
 }
 
-app.UseHttpsRedirection();  // redirige requests HTTP a HTTPS
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-app.UseAuthorization();     // middleware de autorizaci√≥n (todav√≠a no lo configuramos, pero viene default)
-
-app.MapControllers();       // conecta las rutas de tus Controllers con el sistema de routing
-
-app.Run();                  // arranca el servidor y se queda escuchando requests
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Azure.Core/1.25.0": {
@@ -1575,6 +1575,20 @@
         },
         "runtime": {
           "bin/placeholder/SubastaYa.Infraestructura.dll": {}
+        }
+      },
+      "SubastaYa.Servicios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SubastaYa.Dominio": "1.0.0",
+          "SubastaYa.Infraestructura": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SubastaYa.Servicios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SubastaYa.Servicios.dll": {}
         }
       }
     }
@@ -4438,12 +4452,18 @@
       "type": "project",
       "path": "../SubastaYa.Infraestructura/SubastaYa.Infraestructura.csproj",
       "msbuildProject": "../SubastaYa.Infraestructura/SubastaYa.Infraestructura.csproj"
+    },
+    "SubastaYa.Servicios/1.0.0": {
+      "type": "project",
+      "path": "../SubastaYa.Servicios/SubastaYa.Servicios.csproj",
+      "msbuildProject": "../SubastaYa.Servicios/SubastaYa.Servicios.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "SubastaYa.Infraestructura >= 1.0.0",
+      "SubastaYa.Servicios >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -4477,10 +4497,14 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
             "E:\\probabilidad\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj": {
               "projectPath": "E:\\probabilidad\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj"
+            },
+            "E:\\probabilidad\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj": {
+              "projectPath": "E:\\probabilidad\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj"
             }
           }
         }
@@ -4495,10 +4519,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
@@ -4523,24 +4548,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.28, 8.0.28]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.28, 8.0.28]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.28, 8.0.28]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.28, 8.0.28]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4549,7 +4556,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
