@@ -1,7 +1,10 @@
 using Microsoft.EntityFrameworkCore;      // necesario para AddDbContext y UseSqlServer
 using SubastaYa.Infraestructura;          // para usar la clase SubastaYaDbContext
 using SubastaYa.Servicios;                // para usar PujaService y CatalogoService
+using SubastaYa.Dominio.Repositorios;
+using SubastaYa.Infraestructura.Repositorios;
 
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
