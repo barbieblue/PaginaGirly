@@ -77,5 +77,32 @@ namespace SubastaYa.Servicios
             await _context.SaveChangesAsync();
             return true;
         }
+
+        public async Task<List<object>?> ObtenerTransaccionesAsync(int usuarioId)
+        {
+            var billetera = await _context.Billeteras
+                .FirstOrDefaultAsync(b => b.Usuario_Id == usuarioId);
+
+            if (billetera == null)
+            {
+                return null;
+            }
+
+            var transacciones = await _context.Transacciones
+                .Where(t => t.Billetera_Id == billetera.Id)
+                .OrderByDescending(t => t.Fecha)
+                .Select(t => new
+                {
+                    t.Id,
+                    t.Tipo,
+                    t.Monto,
+                    t.Fecha,
+                    t.Subasta_Id
+                })
+                .ToListAsync<object>();
+
+            return transacciones;
+        }
     }
+
 }

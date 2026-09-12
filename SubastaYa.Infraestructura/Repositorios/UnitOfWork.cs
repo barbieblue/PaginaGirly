@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using SubastaYa.Dominio.Repositorios;
 
 namespace SubastaYa.Infraestructura.Repositorios
@@ -17,6 +18,8 @@ namespace SubastaYa.Infraestructura.Repositorios
         public IBilleteraRepository Billeteras { get; }
         public IPujaRepository Pujas { get; }
         public ITransaccionRepository Transacciones { get; }
+        public IAuditoriaRepository AuditoriaLogs { get; }
+       
 
         public UnitOfWork(SubastaYaDbContext context)
         {
@@ -30,6 +33,7 @@ namespace SubastaYa.Infraestructura.Repositorios
             Billeteras = new BilleteraRepository(context);
             Pujas = new PujaRepository(context);
             Transacciones = new TransaccionRepository(context);
+            AuditoriaLogs = new AuditoriaRepository(context);
         }
 
         public async Task<int> SaveChangesAsync() => await _context.SaveChangesAsync();

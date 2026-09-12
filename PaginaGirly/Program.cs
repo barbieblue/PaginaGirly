@@ -3,14 +3,16 @@ using SubastaYa.Infraestructura;          // para usar la clase SubastaYaDbConte
 using SubastaYa.Servicios;                // para usar PujaService y CatalogoService
 using SubastaYa.Dominio.Repositorios;
 using SubastaYa.Infraestructura.Repositorios;
+using SubastaYa.Infraestructura.Workers;
 
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHostedService<ProcesosCierreSubastas>();
 
 // Registra el DbContext, usando la cadena de conexión del appsettings.json
 builder.Services.AddDbContext<SubastaYaDbContext>(options =>

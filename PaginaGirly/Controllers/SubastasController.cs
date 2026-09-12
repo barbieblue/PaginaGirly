@@ -65,5 +65,20 @@ namespace PaginaGirly.Controllers // Asegúrate de que el namespace sea el de tu
             // más preciso que un simple 200 OK.
             return CreatedAtAction(nameof(GetSubastas), new { }, new { id = resultado.SubastaId });
         }
+
+        // GET /api/Subastas/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetDetalle(int id)
+        {
+            var detalle = await _catalogoService.ObtenerDetalleAsync(id);
+
+            if (detalle == null)
+            {
+                return NotFound(new { error = "No se encontró la subasta solicitada." });
+            }
+
+            return Ok(detalle);
+        }
     }
+
 }

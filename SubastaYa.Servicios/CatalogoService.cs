@@ -69,7 +69,7 @@ namespace SubastaYa.Servicios
             public int? SubastaId { get; set; }
         }
 
-        
+
         public async Task<ResultadoCreacion> CrearSubastaAsync(NuevaSubastaDto dto)
         {
             // --- Validaciones que pide la consigna ---
@@ -119,5 +119,41 @@ namespace SubastaYa.Servicios
             return new ResultadoCreacion { Exito = true, SubastaId = nuevaSubasta.Id };
         }
         // ⬆️ ACÁ TERMINA LO NUEVO
+        public async Task<object?> ObtenerDetalleAsync(int id)
+        {
+            var subasta = await _context.Subastas
+                .Include(s => s.Categoria)
+                .Include(s => s.Vendedor)
+                .FirstOrDefaultAsync(s => s.Id == id);
+
+            if (subasta == null)
+            {
+                return null; // el Controller decide qué código HTTP devolver
+            }
+
+            var pujas = await _context.Pujas
+                .Where(p => p.Subasta_Id == id)
+                .OrderByDescending(p => p.Monto)
+                .ToListAsync();
+
+            return new
+            {
+                subasta.Id,
+                subasta.Titulo,
+                subasta.Descripcion,
+                Categoria = subasta.Categoria.Nombre,
+                Vendedor = subasta.Vendedor.Nombre,
+                subasta.Precio_Base,
+                subasta.Incremento_Minimo,
+                subasta.Fecha_Inicio,
+                subasta.Fecha_Fin,
+                subasta.Estado,
+                subasta.Url_Imagen,
+                OfertaMasAlta = pujas.Any() ? pujas.Max(p => p.Monto) : subasta.Precio_Base,
+                CantidadOfertas = pujas.Count,
+                // sugerencia automática del próximo valor a ofertar, tal como pide la consigna
+                ProximaOfertaSugerida = (pujas.Any() ? pujas.Max(p => p.Monto) : subasta.Precio_Base) + subasta.Incremento_Minimo
+            };
+        }
     }
 }

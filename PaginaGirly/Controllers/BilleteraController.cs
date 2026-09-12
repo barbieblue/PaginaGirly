@@ -3,13 +3,13 @@ using SubastaYa.Servicios;
 
 namespace PaginaGirly.Controllers
 {
-    [Route("api/wallet")]
+    [Route("api/billetera")]
     [ApiController]
-    public class WalletController : ControllerBase
+    public class BilleteraController : ControllerBase
     {
         private readonly BilleteraService _billeteraService;
 
-        public WalletController(BilleteraService billeteraService)
+        public BilleteraController(BilleteraService billeteraService)
         {
             _billeteraService = billeteraService;
         }
@@ -47,6 +47,20 @@ namespace PaginaGirly.Controllers
             }
 
             return Ok(new { mensaje = "Depósito acreditado exitosamente." });
+        }
+
+        // GET /api/wallet/4/transacciones
+        [HttpGet("{usuarioId}/transacciones")]
+        public async Task<IActionResult> GetTransacciones(int usuarioId)
+        {
+            var transacciones = await _billeteraService.ObtenerTransaccionesAsync(usuarioId);
+
+            if (transacciones == null)
+            {
+                return NotFound(new { error = "No se encontró una billetera para ese usuario." });
+            }
+
+            return Ok(transacciones);
         }
     }
 }

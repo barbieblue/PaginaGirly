@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubastaYa.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f12c31ffe8c737690add118ae38636ac8a7b205")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+250c159132a88a82acfab44d7c4213c9593d2a96")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubastaYa.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubastaYa.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

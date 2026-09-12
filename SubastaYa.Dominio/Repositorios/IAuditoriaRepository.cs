@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace SubastaYa.Dominio.Repositorios
 {
-    public interface IPujaRepository : IRepository<Puja>
+    public interface IAuditoriaRepository : IRepository<Auditoria_Log>
     {
-        Task<List<Puja>> GetBySubastaIdAsync(int subastaId);
     }
 }
