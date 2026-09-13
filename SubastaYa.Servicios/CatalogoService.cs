@@ -155,5 +155,17 @@ namespace SubastaYa.Servicios
                 ProximaOfertaSugerida = (pujas.Any() ? pujas.Max(p => p.Monto) : subasta.Precio_Base) + subasta.Incremento_Minimo
             };
         }
+
+        public async Task<List<object>> ObtenerCategoriasAsync()
+        {
+            return await _context.Categorias
+                .Select(c => new
+                {
+                    c.Id,
+                    c.Nombre,
+                    c.Url_Icono
+                })
+                .ToListAsync<object>();
+        }
     }
 }

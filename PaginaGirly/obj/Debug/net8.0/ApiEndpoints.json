@@ -1,5 +1,36 @@
 [
   {
+    "ContainingType": "PaginaGirly.Controllers.AuditoriaController",
+    "Method": "GetTodo",
+    "RelativePath": "api/auditoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaginaGirly.Controllers.AuditoriaController",
+    "Method": "GetPorEntidad",
+    "RelativePath": "api/auditoria/{entidad}/{entidadId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entidad",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "entidadId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PaginaGirly.Controllers.BilleteraController",
     "Method": "GetTransacciones",
     "RelativePath": "api/billetera/{usuarioId}/transacciones",
@@ -45,6 +76,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaginaGirly.Controllers.CategoriasController",
+    "Method": "GetCategorias",
+    "RelativePath": "api/categorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -119,6 +160,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaginaGirly.Controllers.UsuarioController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

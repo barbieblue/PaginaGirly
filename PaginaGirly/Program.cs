@@ -6,7 +6,6 @@ using SubastaYa.Infraestructura.Repositorios;
 using SubastaYa.Infraestructura.Workers;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -23,6 +22,9 @@ builder.Services.AddDbContext<SubastaYaDbContext>(options =>
 builder.Services.AddScoped<PujaService>();
 builder.Services.AddScoped<CatalogoService>();
 builder.Services.AddScoped<BilleteraService>();
+builder.Services.AddScoped<AuditoriaService>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<UsuarioService>();
 
 var app = builder.Build();  // a partir de acá ya no se pueden registrar más servicios
 
