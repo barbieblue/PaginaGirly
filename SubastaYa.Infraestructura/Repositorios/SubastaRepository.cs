@@ -15,8 +15,11 @@ namespace SubastaYa.Infraestructura.Repositorios
 
         public async Task<Subasta?> GetByIdConCategoriaAsync(int id)
         {
-            return await _context.Subastas
+            // Ahora incluye también al Vendedor: lo necesita el detalle de subasta
+            // (Módulo 3). No hizo falta tocar la firma del método ni la interfaz.
+            return await _dbSet
                 .Include(s => s.Categoria)
+                .Include(s => s.Vendedor)
                 .FirstOrDefaultAsync(s => s.Id == id);
         }
 

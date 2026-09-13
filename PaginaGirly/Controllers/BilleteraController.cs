@@ -3,13 +3,14 @@ using SubastaYa.Servicios;
 
 namespace PaginaGirly.Controllers
 {
-    [Route("api/wallet")]
+    [Route("api/billetera")]
     [ApiController]
-    public class WalletController : ControllerBase
+    public class BilleteraController : ControllerBase
+        
     {
         private readonly BilleteraService _billeteraService;
 
-        public WalletController(BilleteraService billeteraService)
+        public BilleteraController(BilleteraService billeteraService)
         {
             _billeteraService = billeteraService;
         }

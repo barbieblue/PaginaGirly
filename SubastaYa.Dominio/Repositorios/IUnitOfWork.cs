@@ -19,6 +19,7 @@ namespace SubastaYa.Dominio.Repositorios
         IBilleteraRepository Billeteras { get; }
         IPujaRepository Pujas { get; }
         ITransaccionRepository Transacciones { get; }
+        IAuditoriaRepository AuditoriaLogs { get; }
 
         Task<int> SaveChangesAsync();
     }

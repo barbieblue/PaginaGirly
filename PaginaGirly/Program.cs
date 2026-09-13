@@ -1,32 +1,53 @@
-using Microsoft.EntityFrameworkCore;      // necesario para AddDbContext y UseSqlServer
+Ôªøusing Microsoft.EntityFrameworkCore;      // necesario para AddDbContext y UseSqlServer
 using SubastaYa.Infraestructura;          // para usar la clase SubastaYaDbContext
 using SubastaYa.Servicios;                // para usar PujaService y CatalogoService
+using SubastaYa.Servicios.Abstracciones;      // ‚Üê nuevo: para IMediator y Mediator
 using SubastaYa.Dominio.Repositorios;
 using SubastaYa.Infraestructura.Repositorios;
+using SubastaYa.Servicios.Subastas.Queries;
+using SubastaYa.Servicios.Subastas.Commands;
+using SubastaYa.Servicios.Billetera.Queries;
+using SubastaYa.Servicios.Billetera.Commands;
 
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Registra el DbContext, usando la cadena de conexiÛn del appsettings.json
+// Registra el DbContext, usando la cadena de conexi√≥n del appsettings.json
 builder.Services.AddDbContext<SubastaYaDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Registra los servicios de la capa Application (casos de uso) para que
-// el Controller pueda "pedirlos" por inyecciÛn de dependencias en su constructor.
+// el Controller pueda "pedirlos" por inyecci√≥n de dependencias en su constructor.
 builder.Services.AddScoped<PujaService>();
 builder.Services.AddScoped<CatalogoService>();
 builder.Services.AddScoped<BilleteraService>();
 
-var app = builder.Build();  // a partir de ac· ya no se pueden registrar m·s servicios
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+builder.Services.AddScoped<IMediator, Mediator>();
+builder.Services.AddScoped<IMediator, Mediator>();
+
+builder.Services.AddScoped<IRequestHandler<ListarSubastasQuery, List<SubastaResumenDto>>, ListarSubastasQueryHandler>();
+builder.Services.AddScoped<IRequestHandler<CrearSubastaCommand, ResultadoCreacionDto>, CrearSubastaCommandHandler>();
+builder.Services.AddScoped<IRequestHandler<RegistrarPujaCommand, ResultadoPujaDto>, RegistrarPujaCommandHandler>();
+
+builder.Services.AddScoped<IRequestHandler<ObtenerSaldoQuery, SaldoDto?>, ObtenerSaldoQueryHandler>();  //Revosar PORQUE DA ERROR
+builder.Services.AddScoped<IRequestHandler<DepositarCommand, DepositarResultadoDto>, DepositarCommandHandler>();
+builder.Services.AddScoped<IRequestHandler<ListarTransaccionesQuery, List<TransaccionDto>?>, ListarTransaccionesQueryHandler>();
+builder.Services.AddScoped<IRequestHandler<ObtenerDetalleSubastaQuery, SubastaDetalleDto?>, ObtenerDetalleSubastaQueryHandler>();
+
+
+var app = builder.Build();  // a partir de ac√° ya no se pueden registrar m√°s servicios
 
 
 
-// Al arrancar, si la base est· vacÌa, la llenamos con los datos de prueba del TP.
+// Al arrancar, si la base est√° vac√≠a, la llenamos con los datos de prueba del TP.
 
 using (var scope = app.Services.CreateScope())
 {
