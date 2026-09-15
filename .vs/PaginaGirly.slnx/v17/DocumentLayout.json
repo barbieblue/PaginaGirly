@@ -7,24 +7,16 @@
       "RelativeMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|solutionrelative:paginagirly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\transaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\transaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\repositorios\\itransaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\repositorios\\itransaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|d:\\desktop\\proyecto bar\\paginagirly\\paginagirly\\controllers\\subastascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|solutionrelative:paginagirly\\controllers\\subastascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|d:\\desktop\\proyecto bar\\paginagirly\\paginagirly\\controllers\\billeteracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|solutionrelative:paginagirly\\controllers\\billeteracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\billeteraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\billeteraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\pujaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +27,96 @@
       "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\catalogoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\billeteraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\billeteraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\auditoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\auditoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\billeterarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\billeterarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\pujarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\pujarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\transaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\transaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\subastarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\subastarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\billetera\\queries\\obtenersaldoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\billetera\\queries\\obtenersaldoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\abstracciones\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\abstracciones\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\abstracciones\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\abstracciones\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\billetera\\queries\\obtenersaldoqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\billetera\\queries\\obtenersaldoqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\subastaya.dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\subastaya.dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastaya.servicios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastaya.servicios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastas\\queries\\listarsubastasquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastas\\queries\\listarsubastasquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastas\\commands\\resultadopujadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastas\\commands\\resultadopujadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastas\\commands\\crearsubastacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastas\\commands\\crearsubastacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastas\\commands\\resultadocreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastas\\commands\\resultadocreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastas\\commands\\registrarpujacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastas\\commands\\registrarpujacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastas\\commands\\registrarpujacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastas\\commands\\registrarpujacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastas\\commands\\crearsubastacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastas\\commands\\crearsubastacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\repositorios\\itransaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\repositorios\\itransaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\billetera\\queries\\obtenerdetallesubastaqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,32 +139,12 @@
       "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\billetera\\queries\\listartransaccionesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\billetera\\queries\\obtenersaldoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\billetera\\queries\\obtenersaldoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\commands\\crearsubastacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\commands\\crearsubastacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\commands\\crearsubastacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\commands\\crearsubastacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\billetera\\queries\\saldodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\billetera\\queries\\saldodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\billetera\\queries\\obtenersaldoqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\billetera\\queries\\obtenersaldoqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\billetera\\queries\\transacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\billetera\\queries\\transacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\subastarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\subastarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\billetera\\commands\\depositarcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,26 +159,6 @@
       "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\billetera\\commands\\depositarresultadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\commands\\registrarpujacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\commands\\registrarpujacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\commands\\registrarpujacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\commands\\registrarpujacommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\commands\\resultadocreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\commands\\resultadocreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\commands\\resultadopujadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\commands\\resultadopujadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastaya.servicios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastaya.servicios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\subastaya.infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\subastaya.infraestructura.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -127,24 +167,12 @@
       "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastas\\queries\\listarsubastasqueryhandler.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastas\\queries\\listarsubastasquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastas\\queries\\listarsubastasquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\subastas\\queries\\subastaresumendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\subastas\\queries\\subastaresumendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\abstracciones\\imediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\abstracciones\\imediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\abstracciones\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\abstracciones\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\abstracciones\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|solutionrelative:subastaya.servicios\\abstracciones\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDE023F9-D619-48E6-9274-7E3F265318F4}|SubastaYa.Servicios\\SubastaYa.Servicios.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.servicios\\abstracciones\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -183,10 +211,6 @@
       "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\repositorios\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\repositorios\\auditoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\repositorios\\auditoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.infraestructura\\subastayadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6DB44E4-6690-4915-9C89-33FCBAD39738}|SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj|solutionrelative:subastaya.infraestructura\\subastayadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -219,10 +243,6 @@
       "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\auditoria_log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|d:\\desktop\\proyecto bar\\paginagirly\\subastaya.dominio\\subastaya.dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C184D47E-5473-496D-ADDF-5ED0EF13307D}|SubastaYa.Dominio\\SubastaYa.Dominio.csproj|solutionrelative:subastaya.dominio\\subastaya.dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|d:\\desktop\\proyecto bar\\paginagirly\\paginagirly\\paginagirly.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1FF33696-99E9-7ABA-06DD-2C0A82902F9B}|PaginaGirly\\PaginaGirly.csproj|solutionrelative:paginagirly\\paginagirly.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -250,600 +270,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 353,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Program.cs",
-              "RelativeDocumentMoniker": "PaginaGirly\\Program.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Program.cs",
-              "RelativeToolTip": "PaginaGirly\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T21:53:28.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SubastasController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Controllers\\SubastasController.cs",
-              "RelativeDocumentMoniker": "PaginaGirly\\Controllers\\SubastasController.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Controllers\\SubastasController.cs",
-              "RelativeToolTip": "PaginaGirly\\Controllers\\SubastasController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:55:02.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BilleteraController.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Controllers\\BilleteraController.cs",
-              "RelativeDocumentMoniker": "PaginaGirly\\Controllers\\BilleteraController.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Controllers\\BilleteraController.cs",
-              "RelativeToolTip": "PaginaGirly\\Controllers\\BilleteraController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:14:01.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PujaService.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\PujaService.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\PujaService.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\PujaService.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\PujaService.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:50:21.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TransaccionRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\TransaccionRepository.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\TransaccionRepository.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\TransaccionRepository.cs",
-              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\TransaccionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:34:29.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITransaccionRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ITransaccionRepository.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\ITransaccionRepository.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ITransaccionRepository.cs",
-              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\ITransaccionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:36:02.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\UnitOfWork.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\UnitOfWork.cs",
-              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\UnitOfWork.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:35:13.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CatalogoService.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\CatalogoService.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\CatalogoService.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\CatalogoService.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\CatalogoService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:00:21.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BilleteraService.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\BilleteraService.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\BilleteraService.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\BilleteraService.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\BilleteraService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:49:00.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ObtenerDetalleSubastaQueryHandler.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQueryHandler.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQueryHandler.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQueryHandler.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQueryHandler.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T00:02:14.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ObtenerDetalleSubastaQuery.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQuery.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQuery.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQuery.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T00:01:51.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SubastaDetalleDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\SubastaDetalleDto.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\SubastaDetalleDto.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\SubastaDetalleDto.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\SubastaDetalleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:56:11.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ListarTransaccionesQueryHandler.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQueryHandler.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQueryHandler.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQueryHandler.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:55:41.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ListarTransaccionesQuery.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQuery.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQuery.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQuery.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:55:25.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TransaccionDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\TransaccionDto.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\TransaccionDto.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\TransaccionDto.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\TransaccionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:52:39.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ObtenerSaldoQuery.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQuery.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQuery.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQuery.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:08:03.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ObtenerSaldoQueryHandler.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQueryHandler.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQueryHandler.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQueryHandler.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:08:28.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SaldoDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\SaldoDto.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\SaldoDto.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\SaldoDto.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\SaldoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:07:33.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CrearSubastaCommand.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\CrearSubastaCommand.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Commands\\CrearSubastaCommand.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\CrearSubastaCommand.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Commands\\CrearSubastaCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:02:08.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CrearSubastaCommandHandler.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\CrearSubastaCommandHandler.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Commands\\CrearSubastaCommandHandler.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\CrearSubastaCommandHandler.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Commands\\CrearSubastaCommandHandler.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:02:37.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SubastaRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\SubastaRepository.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\SubastaRepository.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\SubastaRepository.cs",
-              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\SubastaRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:51:46.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DepositarCommand.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommand.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommand.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommand.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:09:31.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DepositarCommandHandler.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommandHandler.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommandHandler.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommandHandler.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommandHandler.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:09:46.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DepositarResultadoDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarResultadoDto.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarResultadoDto.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarResultadoDto.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarResultadoDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:09:19.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "RegistrarPujaCommandHandler.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\RegistrarPujaCommandHandler.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Commands\\RegistrarPujaCommandHandler.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\RegistrarPujaCommandHandler.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Commands\\RegistrarPujaCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:04:58.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "RegistrarPujaCommand.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\RegistrarPujaCommand.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Commands\\RegistrarPujaCommand.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\RegistrarPujaCommand.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Commands\\RegistrarPujaCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:04:32.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ResultadoPujaDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\ResultadoPujaDto.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Commands\\ResultadoPujaDto.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\ResultadoPujaDto.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Commands\\ResultadoPujaDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:04:17.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ResultadoCreacionDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\ResultadoCreacionDto.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Commands\\ResultadoCreacionDto.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Commands\\ResultadoCreacionDto.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Commands\\ResultadoCreacionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T23:01:57.931Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ListarSubastasQueryHandler.cs.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQueryHandler.cs.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQueryHandler.cs.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQueryHandler.cs.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQueryHandler.cs.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:53:15.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ListarSubastasQuery.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQuery.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQuery.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQuery.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:52:59.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "SubastaYa.Infraestructura.csproj",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
-              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
-              "RelativeToolTip": "SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-02T21:56:05.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "SubastaYa.Servicios.csproj",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\SubastaYa.Servicios.csproj",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj",
-              "RelativeToolTip": "SubastaYa.Servicios\\SubastaYa.Servicios.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-02T23:33:30.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "SubastaResumenDto.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\SubastaResumenDto.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Queries\\SubastaResumenDto.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\SubastaResumenDto.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Queries\\SubastaResumenDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:52:36.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IMediator.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IMediator.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Abstracciones\\IMediator.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IMediator.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Abstracciones\\IMediator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:43:47.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Mediator.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\Mediator.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Abstracciones\\Mediator.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\Mediator.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Abstracciones\\Mediator.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwB8AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:44:16.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IRequest.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IRequest.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Abstracciones\\IRequest.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IRequest.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Abstracciones\\IRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:43:28.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IRequestHandler.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IRequestHandler.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Abstracciones\\IRequestHandler.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IRequestHandler.cs",
-              "RelativeToolTip": "SubastaYa.Servicios\\Abstracciones\\IRequestHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:43:42.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IPujaRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IPujaRepository.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IPujaRepository.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IPujaRepository.cs",
-              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IPujaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:35:58.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ICategoriaRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ICategoriaRepository.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\ICategoriaRepository.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ICategoriaRepository.cs",
-              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\ICategoriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:35:57.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IUsuarioRepository.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IUsuarioRepository.cs",
-              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:37:51.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IBilleteraRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IBilleteraRepository.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IBilleteraRepository.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IBilleteraRepository.cs",
-              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IBilleteraRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:35:56.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IAuditoriaRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IAuditoriaRepository.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IAuditoriaRepository.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IAuditoriaRepository.cs",
-              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IAuditoriaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:33:35.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IUnitOfWork.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IUnitOfWork.cs",
-              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:34:51.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ISubastaRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ISubastaRepository.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\ISubastaRepository.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ISubastaRepository.cs",
-              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\ISubastaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:37:04.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IRepository.cs",
-              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IRepository.cs",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IRepository.cs",
-              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T22:35:59.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 6,
               "Title": "AuditoriaRepository.cs",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\AuditoriaRepository.cs",
               "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\AuditoriaRepository.cs",
@@ -856,7 +291,633 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CatalogoService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\CatalogoService.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\CatalogoService.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\CatalogoService.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\CatalogoService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:00:21.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BilleteraService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\BilleteraService.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\BilleteraService.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\BilleteraService.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\BilleteraService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:49:00.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Program.cs",
+              "RelativeDocumentMoniker": "PaginaGirly\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Program.cs",
+              "RelativeToolTip": "PaginaGirly\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T21:53:28.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BilleteraController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Controllers\\BilleteraController.cs",
+              "RelativeDocumentMoniker": "PaginaGirly\\Controllers\\BilleteraController.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Controllers\\BilleteraController.cs",
+              "RelativeToolTip": "PaginaGirly\\Controllers\\BilleteraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:14:01.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubastasController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Controllers\\SubastasController.cs",
+              "RelativeDocumentMoniker": "PaginaGirly\\Controllers\\SubastasController.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\Controllers\\SubastasController.cs",
+              "RelativeToolTip": "PaginaGirly\\Controllers\\SubastasController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwB8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:55:02.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PujaService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\PujaService.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\PujaService.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\PujaService.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\PujaService.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwHsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T22:50:21.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\CategoriaRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\CategoriaRepository.cs",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\CategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T22:22:23.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\UsuarioRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\UsuarioRepository.cs",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T22:22:18.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BilleteraRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\BilleteraRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\BilleteraRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\BilleteraRepository.cs",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\BilleteraRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T22:22:08.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PujaRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\PujaRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\PujaRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\PujaRepository.cs",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\PujaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T22:22:01.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\Repository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\Repository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\Repository.cs",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T22:19:45.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ObtenerSaldoQuery.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQuery.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQuery.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQuery.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:08:03.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ObtenerSaldoQueryHandler.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQueryHandler.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQueryHandler.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQueryHandler.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerSaldoQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:08:28.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRequestHandler.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IRequestHandler.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Abstracciones\\IRequestHandler.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IRequestHandler.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Abstracciones\\IRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:43:42.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRequest.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IRequest.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Abstracciones\\IRequest.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IRequest.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Abstracciones\\IRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:43:28.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransaccionRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\TransaccionRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\TransaccionRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\TransaccionRepository.cs",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\TransaccionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:34:29.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SubastaRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\SubastaRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\SubastaRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\SubastaRepository.cs",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\SubastaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:51:46.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SubastaYa.Dominio.csproj",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
+              "RelativeToolTip": "SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T23:13:39.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SubastaYa.Servicios.csproj",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\SubastaYa.Servicios.csproj",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\SubastaYa.Servicios.csproj",
+              "RelativeToolTip": "SubastaYa.Servicios\\SubastaYa.Servicios.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T23:33:30.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ListarSubastasQuery.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQuery.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQuery.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQuery.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:52:59.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CrearSubastaCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\CrearSubastaCommand.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Commands\\CrearSubastaCommand.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\CrearSubastaCommand.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Commands\\CrearSubastaCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:02:08.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ResultadoPujaDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\ResultadoPujaDto.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Commands\\ResultadoPujaDto.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\ResultadoPujaDto.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Commands\\ResultadoPujaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:04:17.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ResultadoCreacionDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\ResultadoCreacionDto.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Commands\\ResultadoCreacionDto.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\ResultadoCreacionDto.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Commands\\ResultadoCreacionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:01:57.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegistrarPujaCommandHandler.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\RegistrarPujaCommandHandler.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Commands\\RegistrarPujaCommandHandler.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\RegistrarPujaCommandHandler.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Commands\\RegistrarPujaCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:04:58.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RegistrarPujaCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\RegistrarPujaCommand.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Commands\\RegistrarPujaCommand.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\RegistrarPujaCommand.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Commands\\RegistrarPujaCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:04:32.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CrearSubastaCommandHandler.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\CrearSubastaCommandHandler.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Commands\\CrearSubastaCommandHandler.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Commands\\CrearSubastaCommandHandler.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Commands\\CrearSubastaCommandHandler.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:02:37.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\Repositorios\\UnitOfWork.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\Repositorios\\UnitOfWork.cs",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\Repositorios\\UnitOfWork.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:35:13.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ITransaccionRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ITransaccionRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\ITransaccionRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ITransaccionRepository.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\ITransaccionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:36:02.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ObtenerDetalleSubastaQueryHandler.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQueryHandler.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQueryHandler.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQueryHandler.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQueryHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T00:02:14.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ObtenerDetalleSubastaQuery.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQuery.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQuery.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQuery.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ObtenerDetalleSubastaQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T00:01:51.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SubastaDetalleDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\SubastaDetalleDto.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\SubastaDetalleDto.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\SubastaDetalleDto.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\SubastaDetalleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:56:11.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ListarTransaccionesQueryHandler.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQueryHandler.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQueryHandler.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQueryHandler.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:55:41.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ListarTransaccionesQuery.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQuery.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQuery.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQuery.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\ListarTransaccionesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:55:25.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TransaccionDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\TransaccionDto.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\TransaccionDto.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\TransaccionDto.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\TransaccionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:52:39.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SaldoDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\SaldoDto.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Queries\\SaldoDto.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Queries\\SaldoDto.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Queries\\SaldoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:07:33.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DepositarCommand.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommand.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommand.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommand.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:09:31.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DepositarCommandHandler.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommandHandler.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommandHandler.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommandHandler.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarCommandHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:09:46.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DepositarResultadoDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarResultadoDto.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarResultadoDto.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Billetera\\Commands\\DepositarResultadoDto.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Billetera\\Commands\\DepositarResultadoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T23:09:19.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ListarSubastasQueryHandler.cs.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQueryHandler.cs.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQueryHandler.cs.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQueryHandler.cs.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Queries\\ListarSubastasQueryHandler.cs.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:53:15.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SubastaYa.Infraestructura.csproj",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
+              "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
+              "RelativeToolTip": "SubastaYa.Infraestructura\\SubastaYa.Infraestructura.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T21:56:05.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SubastaResumenDto.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\SubastaResumenDto.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Subastas\\Queries\\SubastaResumenDto.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Subastas\\Queries\\SubastaResumenDto.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Subastas\\Queries\\SubastaResumenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:52:36.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IMediator.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IMediator.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Abstracciones\\IMediator.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\IMediator.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Abstracciones\\IMediator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:43:47.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Mediator.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\Mediator.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Servicios\\Abstracciones\\Mediator.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\Abstracciones\\Mediator.cs",
+              "RelativeToolTip": "SubastaYa.Servicios\\Abstracciones\\Mediator.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwB8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:44:16.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IPujaRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IPujaRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IPujaRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IPujaRepository.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IPujaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:35:58.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\ICategoriaRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ICategoriaRepository.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\ICategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:35:57.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IUsuarioRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IUsuarioRepository.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:37:51.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IBilleteraRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IBilleteraRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IBilleteraRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IBilleteraRepository.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IBilleteraRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:35:56.843Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 46,
+              "Title": "IAuditoriaRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IAuditoriaRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IAuditoriaRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IAuditoriaRepository.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IAuditoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:33:35.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IUnitOfWork.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:34:51.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ISubastaRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ISubastaRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\ISubastaRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\ISubastaRepository.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\ISubastaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:37:04.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IRepository.cs",
+              "RelativeDocumentMoniker": "SubastaYa.Dominio\\Repositorios\\IRepository.cs",
+              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Repositorios\\IRepository.cs",
+              "RelativeToolTip": "SubastaYa.Dominio\\Repositorios\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T22:35:59.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "SubastaYaDbContext.cs",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Infraestructura\\SubastaYaDbContext.cs",
               "RelativeDocumentMoniker": "SubastaYa.Infraestructura\\SubastaYaDbContext.cs",
@@ -864,12 +925,11 @@
               "RelativeToolTip": "SubastaYa.Infraestructura\\SubastaYaDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:02:14.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T22:02:14.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 54,
               "Title": "Usuario.cs",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Usuario.cs",
               "RelativeDocumentMoniker": "SubastaYa.Dominio\\Usuario.cs",
@@ -877,12 +937,11 @@
               "RelativeToolTip": "SubastaYa.Dominio\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:01:00.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T22:01:00.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "Transaccion_Ledger.cs",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Transaccion_Ledger.cs",
               "RelativeDocumentMoniker": "SubastaYa.Dominio\\Transaccion_Ledger.cs",
@@ -890,12 +949,11 @@
               "RelativeToolTip": "SubastaYa.Dominio\\Transaccion_Ledger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:01:06.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T22:01:06.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "Subasta.cs",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Subasta.cs",
               "RelativeDocumentMoniker": "SubastaYa.Dominio\\Subasta.cs",
@@ -903,12 +961,11 @@
               "RelativeToolTip": "SubastaYa.Dominio\\Subasta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:01:10.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T22:01:10.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "Puja.cs",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Puja.cs",
               "RelativeDocumentMoniker": "SubastaYa.Dominio\\Puja.cs",
@@ -916,12 +973,11 @@
               "RelativeToolTip": "SubastaYa.Dominio\\Puja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:01:15.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T22:01:15.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "CatalogoService.cs.cs",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Servicios\\CatalogoService.cs.cs",
               "RelativeDocumentMoniker": "SubastaYa.Servicios\\CatalogoService.cs.cs",
@@ -932,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 53,
               "Title": "Billetera.cs",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Billetera.cs",
               "RelativeDocumentMoniker": "SubastaYa.Dominio\\Billetera.cs",
@@ -940,12 +996,11 @@
               "RelativeToolTip": "SubastaYa.Dominio\\Billetera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:01:25.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T22:01:25.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "Categoria.cs",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Categoria.cs",
               "RelativeDocumentMoniker": "SubastaYa.Dominio\\Categoria.cs",
@@ -953,12 +1008,11 @@
               "RelativeToolTip": "SubastaYa.Dominio\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:01:20.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T22:01:20.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "Auditoria_Log.cs",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\Auditoria_Log.cs",
               "RelativeDocumentMoniker": "SubastaYa.Dominio\\Auditoria_Log.cs",
@@ -966,25 +1020,11 @@
               "RelativeToolTip": "SubastaYa.Dominio\\Auditoria_Log.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T22:01:30.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T22:01:30.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "SubastaYa.Dominio.csproj",
-              "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
-              "RelativeDocumentMoniker": "SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
-              "ToolTip": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
-              "RelativeToolTip": "SubastaYa.Dominio\\SubastaYa.Dominio.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-02T23:13:39.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "PaginaGirly.csproj",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\PaginaGirly.csproj",
               "RelativeDocumentMoniker": "PaginaGirly\\PaginaGirly.csproj",
@@ -992,12 +1032,11 @@
               "RelativeToolTip": "PaginaGirly\\PaginaGirly.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-02T21:53:25.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T21:53:25.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 62,
               "Title": "PaginaGirly.http",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\PaginaGirly.http",
               "RelativeDocumentMoniker": "PaginaGirly\\PaginaGirly.http",
@@ -1005,12 +1044,11 @@
               "RelativeToolTip": "PaginaGirly\\PaginaGirly.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-09-02T21:53:57.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T21:53:57.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\appsettings.json",
               "RelativeDocumentMoniker": "PaginaGirly\\appsettings.json",
@@ -1018,12 +1056,11 @@
               "RelativeToolTip": "PaginaGirly\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-02T21:53:58.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T21:53:58.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 63,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Desktop\\Proyecto Bar\\PaginaGirly\\PaginaGirly\\appsettings.Development.json",
               "RelativeDocumentMoniker": "PaginaGirly\\appsettings.Development.json",
@@ -1031,8 +1068,7 @@
               "RelativeToolTip": "PaginaGirly\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-02T22:04:10.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T22:04:10.923Z"
             }
           ]
         },

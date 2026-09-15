@@ -24,9 +24,6 @@ builder.Services.AddDbContext<SubastaYaDbContext>(options =>
 
 // Registra los servicios de la capa Application (casos de uso) para que
 // el Controller pueda "pedirlos" por inyección de dependencias en su constructor.
-builder.Services.AddScoped<PujaService>();
-builder.Services.AddScoped<CatalogoService>();
-builder.Services.AddScoped<BilleteraService>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 

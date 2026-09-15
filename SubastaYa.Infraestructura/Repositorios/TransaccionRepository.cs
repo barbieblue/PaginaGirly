@@ -4,7 +4,7 @@ using SubastaYa.Dominio.Repositorios;  // para ITransaccionRepository
 
 namespace SubastaYa.Infraestructura.Repositorios
 {
-    public class TransaccionRepository : RepositoryBase<Transaccion_Ledger>, ITransaccionRepository
+    public class TransaccionRepository : Repository<Transaccion_Ledger>, ITransaccionRepository
     {
         public TransaccionRepository(SubastaYaDbContext context) : base(context) { }
 

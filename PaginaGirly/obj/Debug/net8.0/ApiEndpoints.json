@@ -1,5 +1,53 @@
 [
   {
+    "ContainingType": "PaginaGirly.Controllers.BilleteraController",
+    "Method": "ObtenerSaldo",
+    "RelativePath": "api/billetera/balance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaginaGirly.Controllers.BilleteraController",
+    "Method": "Depositar",
+    "RelativePath": "api/billetera/deposit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SubastaYa.Servicios.Billetera.Commands.DepositarCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaginaGirly.Controllers.BilleteraController",
+    "Method": "ObtenerTransacciones",
+    "RelativePath": "api/billetera/transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PaginaGirly.Controllers.SubastasController",
     "Method": "GetSubastas",
     "RelativePath": "api/Subastas",
@@ -29,8 +77,24 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "SubastaYa.Servicios.CatalogoService\u002BNuevaSubastaDto",
+        "Name": "comando",
+        "Type": "SubastaYa.Servicios.Subastas.Commands.CrearSubastaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaginaGirly.Controllers.SubastasController",
+    "Method": "GetDetalle",
+    "RelativePath": "api/Subastas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -52,38 +116,6 @@
       {
         "Name": "dto",
         "Type": "PaginaGirly.Controllers.SubastasController\u002BNuevaPujaDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PaginaGirly.Controllers.WalletController",
-    "Method": "GetBalance",
-    "RelativePath": "api/wallet/balance",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "usuarioId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PaginaGirly.Controllers.WalletController",
-    "Method": "Deposit",
-    "RelativePath": "api/wallet/deposit",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "PaginaGirly.Controllers.WalletController\u002BDepositoDto",
         "IsRequired": true
       }
     ],
