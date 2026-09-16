@@ -1,35 +1,43 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SubastaYa.Servicios;
+using SubastaYa.Servicios.Abstracciones;
+using SubastaYa.Servicios.Subastas.Queries;
+using SubastaYa.Servicios.Subastas.Commands;
 
-namespace PaginaGirly.Controllers // Asegúrate de que el namespace sea el de tu proyecto web
+namespace PaginaGirly.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class SubastasController : ControllerBase
     {
-        private readonly PujaService _pujaService;
-        private readonly CatalogoService _catalogoService;
+        // Ya no recibe PujaService ni CatalogoService: solo el Mediator.
+        private readonly IMediator _mediator;
 
-        // Inyectamos ambos servicios en el constructor
-        public SubastasController(PujaService pujaService, CatalogoService catalogoService)
+        public SubastasController(IMediator mediator)
         {
-            _pujaService = pujaService;
-            _catalogoService = catalogoService;
+            _mediator = mediator;
         }
 
-        // --- ENDPOINTS GET (CATÁLOGO) ---
-
-        // GET: /api/subastas
-        // Ejemplo de uso en Swagger o Postman: /api/subastas?estado=ACTIVA&categoria=Tecnología
+        // GET /api/subastas?estado=ACTIVA&categoria=Tecnología
         [HttpGet]
         public async Task<IActionResult> GetSubastas([FromQuery] string? estado, [FromQuery] string? categoria)
         {
-            var resultado = await _catalogoService.ObtenerSubastasAsync(estado, categoria);
+            var resultado = await _mediator.Send(new ListarSubastasQuery { Estado = estado, Categoria = categoria });
             return Ok(resultado);
         }
 
+        // GET /api/subastas/{id}
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetDetalle(int id)
+        {
+            var detalle = await _mediator.Send(new ObtenerDetalleSubastaQuery { SubastaId = id });
 
-        // --- ENDPOINTS POST (PUJAS) ---
+            if (detalle == null)
+            {
+                return NotFound(new { mensaje = "Subasta no encontrada." });
+            }
+
+            return Ok(detalle);
+        }
 
         public class NuevaPujaDto
         {
@@ -41,7 +49,14 @@ namespace PaginaGirly.Controllers // Asegúrate de que el namespace sea el de tu
         [HttpPost("{id}/bids")]
         public async Task<IActionResult> RegistrarPuja(int id, [FromBody] NuevaPujaDto dto)
         {
-            var resultado = await _pujaService.RegistrarPujaAsync(id, dto.UsuarioId, dto.Monto);
+            var comando = new RegistrarPujaCommand
+            {
+                SubastaId = id,
+                UsuarioId = dto.UsuarioId,
+                Monto = dto.Monto
+            };
+
+            var resultado = await _mediator.Send(comando);
 
             if (!resultado.Exito)
             {
@@ -50,35 +65,19 @@ namespace PaginaGirly.Controllers // Asegúrate de que el namespace sea el de tu
 
             return Ok(new { mensaje = "Puja registrada exitosamente" });
         }
+
         // POST /api/subastas
         [HttpPost]
-        public async Task<IActionResult> CrearSubasta([FromBody] CatalogoService.NuevaSubastaDto dto)
+        public async Task<IActionResult> CrearSubasta([FromBody] CrearSubastaCommand comando)
         {
-            var resultado = await _catalogoService.CrearSubastaAsync(dto);
+            var resultado = await _mediator.Send(comando);
 
             if (!resultado.Exito)
             {
                 return BadRequest(new { error = resultado.MensajeError });
             }
 
-            // 201 Created es el código correcto para "se creó un recurso nuevo",
-            // más preciso que un simple 200 OK.
-            return CreatedAtAction(nameof(GetSubastas), new { }, new { id = resultado.SubastaId });
-        }
-
-        // GET /api/Subastas/5
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetDetalle(int id)
-        {
-            var detalle = await _catalogoService.ObtenerDetalleAsync(id);
-
-            if (detalle == null)
-            {
-                return NotFound(new { error = "No se encontró la subasta solicitada." });
-            }
-
-            return Ok(detalle);
+            return CreatedAtAction(nameof(GetDetalle), new { id = resultado.SubastaId }, new { id = resultado.SubastaId });
         }
     }
-
 }

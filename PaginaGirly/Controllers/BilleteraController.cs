@@ -1,66 +1,63 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SubastaYa.Servicios;
+using SubastaYa.Servicios.Abstracciones;
+using SubastaYa.Servicios.Billetera.Commands;
+using SubastaYa.Servicios.Billetera.Queries;
 
 namespace PaginaGirly.Controllers
 {
-    [Route("api/billetera")]
     [ApiController]
+    [Route("api/billetera")]
     public class BilleteraController : ControllerBase
     {
-        private readonly BilleteraService _billeteraService;
+        // El Controller ya no conoce ningún Service: solo arma el Command/Query
+        // y se lo manda al Mediator, que sabe qué Handler lo resuelve.
+        private readonly IMediator _mediator;
 
-        public BilleteraController(BilleteraService billeteraService)
+        public BilleteraController(IMediator mediator)
         {
-            _billeteraService = billeteraService;
+            _mediator = mediator;
         }
 
-        // GET /api/wallet/balance?usuarioId=3
+        // GET /api/billetera/balance?usuarioId=2
         [HttpGet("balance")]
-        public async Task<IActionResult> GetBalance([FromQuery] int usuarioId)
+        public async Task<IActionResult> ObtenerSaldo([FromQuery] int usuarioId)
         {
-            var saldo = await _billeteraService.ObtenerSaldoAsync(usuarioId);
+            var saldo = await _mediator.Send(new ObtenerSaldoQuery { UsuarioId = usuarioId });
 
             if (saldo == null)
             {
-                return NotFound(new { error = "No se encontró una billetera para ese usuario." });
+                return NotFound(new { mensaje = "No se encontró una billetera para ese usuario." });
             }
 
             return Ok(saldo);
         }
 
-        // Cuerpo esperado para el depósito.
-        public class DepositoDto
+        // GET /api/billetera/transactions?usuarioId=2
+        [HttpGet("transactions")]
+        public async Task<IActionResult> ObtenerTransacciones([FromQuery] int usuarioId)
         {
-            public int UsuarioId { get; set; }
-            public decimal Monto { get; set; }
-        }
-
-        // POST /api/wallet/deposit
-        [HttpPost("deposit")]
-        public async Task<IActionResult> Deposit([FromBody] DepositoDto dto)
-        {
-            var exito = await _billeteraService.DepositarAsync(dto.UsuarioId, dto.Monto);
-
-            if (!exito)
-            {
-                return BadRequest(new { error = "No se pudo acreditar el depósito. Verificá el usuario y que el monto sea positivo." });
-            }
-
-            return Ok(new { mensaje = "Depósito acreditado exitosamente." });
-        }
-
-        // GET /api/wallet/4/transacciones
-        [HttpGet("{usuarioId}/transacciones")]
-        public async Task<IActionResult> GetTransacciones(int usuarioId)
-        {
-            var transacciones = await _billeteraService.ObtenerTransaccionesAsync(usuarioId);
+            var transacciones = await _mediator.Send(new ListarTransaccionesQuery { UsuarioId = usuarioId });
 
             if (transacciones == null)
             {
-                return NotFound(new { error = "No se encontró una billetera para ese usuario." });
+                return NotFound(new { mensaje = "No se encontró una billetera para ese usuario." });
             }
 
             return Ok(transacciones);
+        }
+
+        // POST /api/billetera/deposit
+        [HttpPost("deposit")]
+        public async Task<IActionResult> Depositar([FromBody] DepositarCommand command)
+        {
+            var resultado = await _mediator.Send(command);
+
+            if (!resultado.Exito)
+            {
+                return BadRequest(new { mensaje = resultado.MensajeError });
+            }
+
+            return Ok(new { saldoTotal = resultado.SaldoTotalActualizado });
         }
     }
 }

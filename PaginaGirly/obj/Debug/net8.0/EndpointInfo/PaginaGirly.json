@@ -70,6 +70,28 @@
         }
       }
     },
+    "/api/billetera/transactions": {
+      "get": {
+        "tags": [
+          "Billetera"
+        ],
+        "parameters": [
+          {
+            "name": "usuarioId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/billetera/deposit": {
       "post": {
         "tags": [
@@ -79,44 +101,21 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/DepositoDto"
+                "$ref": "#/components/schemas/DepositarCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/DepositoDto"
+                "$ref": "#/components/schemas/DepositarCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/DepositoDto"
+                "$ref": "#/components/schemas/DepositarCommand"
               }
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/billetera/{usuarioId}/transacciones": {
-      "get": {
-        "tags": [
-          "Billetera"
-        ],
-        "parameters": [
-          {
-            "name": "usuarioId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -171,21 +170,44 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NuevaSubastaDto"
+                "$ref": "#/components/schemas/CrearSubastaCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/NuevaSubastaDto"
+                "$ref": "#/components/schemas/CrearSubastaCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/NuevaSubastaDto"
+                "$ref": "#/components/schemas/CrearSubastaCommand"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Subastas/{id}": {
+      "get": {
+        "tags": [
+          "Subastas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -235,29 +257,6 @@
         }
       }
     },
-    "/api/Subastas/{id}": {
-      "get": {
-        "tags": [
-          "Subastas"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/usuarios": {
       "get": {
         "tags": [
@@ -273,35 +272,7 @@
   },
   "components": {
     "schemas": {
-      "DepositoDto": {
-        "type": "object",
-        "properties": {
-          "usuarioId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "monto": {
-            "type": "number",
-            "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
-      "NuevaPujaDto": {
-        "type": "object",
-        "properties": {
-          "usuarioId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "monto": {
-            "type": "number",
-            "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
-      "NuevaSubastaDto": {
+      "CrearSubastaCommand": {
         "type": "object",
         "properties": {
           "vendedorId": {
@@ -339,6 +310,34 @@
           "fechaFin": {
             "type": "string",
             "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DepositarCommand": {
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "monto": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "NuevaPujaDto": {
+        "type": "object",
+        "properties": {
+          "usuarioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "monto": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false

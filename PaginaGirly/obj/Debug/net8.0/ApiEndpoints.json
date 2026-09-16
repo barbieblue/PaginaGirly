@@ -32,23 +32,7 @@
   },
   {
     "ContainingType": "PaginaGirly.Controllers.BilleteraController",
-    "Method": "GetTransacciones",
-    "RelativePath": "api/billetera/{usuarioId}/transacciones",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "usuarioId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PaginaGirly.Controllers.BilleteraController",
-    "Method": "GetBalance",
+    "Method": "ObtenerSaldo",
     "RelativePath": "api/billetera/balance",
     "HttpMethod": "GET",
     "IsController": true,
@@ -64,16 +48,32 @@
   },
   {
     "ContainingType": "PaginaGirly.Controllers.BilleteraController",
-    "Method": "Deposit",
+    "Method": "Depositar",
     "RelativePath": "api/billetera/deposit",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "PaginaGirly.Controllers.BilleteraController\u002BDepositoDto",
+        "Name": "command",
+        "Type": "SubastaYa.Servicios.Billetera.Commands.DepositarCommand",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PaginaGirly.Controllers.BilleteraController",
+    "Method": "ObtenerTransacciones",
+    "RelativePath": "api/billetera/transactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -118,8 +118,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "SubastaYa.Servicios.CatalogoService\u002BNuevaSubastaDto",
+        "Name": "comando",
+        "Type": "SubastaYa.Servicios.Subastas.Commands.CrearSubastaCommand",
         "IsRequired": true
       }
     ],
