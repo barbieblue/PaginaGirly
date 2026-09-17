@@ -17,11 +17,24 @@ namespace PaginaGirly.Controllers
             _mediator = mediator;
         }
 
-        // GET /api/subastas?estado=ACTIVA&categoria=Tecnología
+        // GET /api/subastas?estado=ACTIVA&categoria=Tecnología&vendedorId=1&compradorId=2
+        // NUEVO: se agregaron vendedorId y compradorId como parámetros opcionales
+        // para soportar el Módulo 5 ("Mis Publicaciones" y "Mis Pujas").
+        // Los filtros ya existentes (estado, categoria) no se modificaron.
         [HttpGet]
-        public async Task<IActionResult> GetSubastas([FromQuery] string? estado, [FromQuery] string? categoria)
+        public async Task<IActionResult> GetSubastas(
+            [FromQuery] string? estado,
+            [FromQuery] string? categoria,
+            [FromQuery] int? vendedorId,
+            [FromQuery] int? compradorId)
         {
-            var resultado = await _mediator.Send(new ListarSubastasQuery { Estado = estado, Categoria = categoria });
+            var resultado = await _mediator.Send(new ListarSubastasQuery
+            {
+                Estado = estado,
+                Categoria = categoria,
+                VendedorId = vendedorId,
+                CompradorId = compradorId
+            });
             return Ok(resultado);
         }
 

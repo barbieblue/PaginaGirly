@@ -8,17 +8,20 @@
     <link href="css/estilos.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark mb-4">
+    <nav class="navbar mb-4">
         <div class="container">
             <a href="index.html" class="navbar-brand mb-0 h1">🔨 SubastaYa</a>
-            <a href="publicar.html" class="btn btn-outline-light btn-sm">+ Publicar subasta</a>
+            <div class="d-flex gap-2">
+                <a href="misactividades.html" class="btn btn-outline-light btn-sm">📋 Mis actividades</a>
+                <a href="billetera.html" class="btn btn-outline-light btn-sm">💰 Billetera</a>
+                <a href="publicar.html" class="btn btn-outline-light btn-sm">+ Publicar subasta</a>
+            </div>
         </div>
     </nav>
 
     <div class="container" style="max-width: 720px;">
         <h2 class="mb-4">Mi billetera</h2>
 
-        <!-- Selector de usuario -->
         <div class="mb-4">
             <label class="form-label">Ver billetera de:</label>
             <select id="selectUsuario" class="form-select">
@@ -26,7 +29,6 @@
             </select>
         </div>
 
-        <!-- Panel de saldo -->
         <div id="panelSaldo" class="d-none">
             <div class="row g-3 mb-4">
                 <div class="col-md-4">
@@ -55,7 +57,6 @@
                 </div>
             </div>
 
-            <!-- Formulario de depósito -->
             <div class="card mb-4">
                 <div class="card-body">
                     <h5 class="card-title mb-3">Cargar saldo</h5>
@@ -68,7 +69,6 @@
                 </div>
             </div>
 
-            <!-- Historial de movimientos -->
             <h5 class="mb-3">Historial de movimientos</h5>
             <div id="historialMovimientos">
                 <p class="text-muted">Sin movimientos.</p>
