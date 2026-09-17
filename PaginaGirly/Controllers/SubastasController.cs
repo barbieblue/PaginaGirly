@@ -38,11 +38,13 @@ namespace PaginaGirly.Controllers
             return Ok(resultado);
         }
 
-        // GET /api/subastas/{id}
+        // GET /api/subastas/{id}?usuarioId=2
+        // NUEVO: usuarioId opcional, para que el Handler calcule EsLider
+        // (Módulo 3: badge "Liderando"/"Superado").
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetDetalle(int id)
+        public async Task<IActionResult> GetDetalle(int id, [FromQuery] int? usuarioId)
         {
-            var detalle = await _mediator.Send(new ObtenerDetalleSubastaQuery { SubastaId = id });
+            var detalle = await _mediator.Send(new ObtenerDetalleSubastaQuery { SubastaId = id, UsuarioId = usuarioId });
 
             if (detalle == null)
             {

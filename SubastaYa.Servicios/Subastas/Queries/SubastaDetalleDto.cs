@@ -22,6 +22,12 @@ namespace SubastaYa.Servicios.Subastas.Queries
         public decimal OfertaMasAlta { get; set; }
         public int CantidadOfertas { get; set; }
         public decimal ProximaOfertaSugerida { get; set; }
+
+        // NUEVO: true si el usuario que consulta (UsuarioId de la Query) es
+        // el autor de la puja líder actual. El frontend lo usa para mostrar
+        // el badge "Liderando"/"Superado" (Módulo 3 de la consigna).
+        public bool EsLider { get; set; }
+
         public List<PujaDetalleDto> Pujas { get; set; } = new();
     }
 

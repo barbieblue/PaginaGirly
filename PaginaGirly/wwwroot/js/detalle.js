@@ -64,8 +64,29 @@ function renderizarHistorial(pujas) {
         </li>`).join("");
 }
 
+// NUEVO: pinta el badge "Liderando"/"Superado" según subasta.esLider,
+// que viene del backend calculado con el usuario actual (Módulo 3).
+function actualizarBadgeLider(subasta) {
+    const contenedor = document.getElementById("badgeLider");
+    if (!contenedor) return;
+
+    const usuarioActual = obtenerUsuarioActual();
+    if (!usuarioActual || subasta.cantidadOfertas === 0) {
+        contenedor.innerHTML = "";
+        return;
+    }
+
+    contenedor.innerHTML = subasta.esLider
+        ? `<span class="badge bg-success mb-2">🟢 Estás liderando</span>`
+        : `<span class="badge bg-danger mb-2">🔴 Fuiste superado</span>`;
+}
+
 async function cargarDetalle() {
-    const respuesta = await fetch(`${API_BASE}/subastas/${subastaId}`);
+    // NUEVO: se manda el usuario actual como query param para que el backend
+    // calcule EsLider correctamente.
+    const usuarioActual = obtenerUsuarioActual();
+    const query = usuarioActual ? `?usuarioId=${usuarioActual}` : "";
+    const respuesta = await fetch(`${API_BASE}/subastas/${subastaId}${query}`);
 
     if (!respuesta.ok) {
         document.getElementById("contenedorDetalle").innerHTML =
@@ -103,6 +124,7 @@ function renderizarEstructuraCompleta(subasta) {
                     <div class="card-body text-center">
                         <div class="temporizador" id="temporizador"></div>
                         <hr>
+                        <div id="badgeLider"></div>
                         <p>Oferta más alta: <strong id="ofertaMasAlta">$${subasta.ofertaMasAlta.toLocaleString()}</strong></p>
                         <p><span id="cantidadOfertas">${subasta.cantidadOfertas}</span> oferta(s) registradas</p>
 
@@ -132,9 +154,13 @@ function renderizarEstructuraCompleta(subasta) {
         </div>
     `;
 
-    document.getElementById("selectUsuario").addEventListener("change", (e) => fijarUsuarioActual(e.target.value));
+    document.getElementById("selectUsuario").addEventListener("change", (e) => {
+        fijarUsuarioActual(e.target.value);
+        cargarDetalle(); // NUEVO: refresca de inmediato el badge al cambiar de usuario
+    });
     document.getElementById("btnPujar").addEventListener("click", registrarPuja);
 
+    actualizarBadgeLider(subasta);
     actualizarTemporizadorYEstado(subasta);
 }
 
@@ -155,6 +181,7 @@ function actualizarValoresDinamicos(subasta) {
         historial.innerHTML = renderizarHistorial(subasta.pujas);
     }
 
+    actualizarBadgeLider(subasta);
     actualizarTemporizadorYEstado(subasta);
 }
 

@@ -65,7 +65,24 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseDefaultFiles();
-app.UseStaticFiles();
+
+// En Desarrollo, le pedimos al navegador que nunca guarde en caché los
+// archivos estáticos (CSS/JS/HTML de wwwroot): así cada cambio se ve al
+// instante con un F5 normal, sin tener que abrir DevTools y tildar
+// "Disable cache" a mano cada vez.
+app.UseStaticFiles(new StaticFileOptions
+{
+    OnPrepareResponse = ctx =>
+    {
+        if (app.Environment.IsDevelopment())
+        {
+            ctx.Context.Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate";
+            ctx.Context.Response.Headers["Pragma"] = "no-cache";
+            ctx.Context.Response.Headers["Expires"] = "0";
+        }
+    }
+});
+
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
