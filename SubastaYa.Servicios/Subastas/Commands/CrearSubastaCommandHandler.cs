@@ -1,4 +1,9 @@
-﻿using SubastaYa.Dominio;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SubastaYa.Dominio;
 using SubastaYa.Dominio.Repositorios;
 using SubastaYa.Servicios.Abstracciones;
 
@@ -15,27 +20,6 @@ namespace SubastaYa.Servicios.Subastas.Commands
 
         public async Task<ResultadoCreacionDto> Handle(CrearSubastaCommand request)
         {
-            // --- Validaciones que pide la consigna (Módulo 2) ---
-            // "La fecha de finalización debe ser posterior a la de inicio"
-            if (request.FechaFin <= request.FechaInicio)
-            {
-                return new ResultadoCreacionDto
-                {
-                    Exito = false,
-                    MensajeError = "La fecha de fin debe ser posterior a la de inicio."
-                };
-            }
-
-            // "El incremento mínimo y el precio base deben ser valores positivos"
-            if (request.PrecioBase <= 0 || request.IncrementoMinimo <= 0)
-            {
-                return new ResultadoCreacionDto
-                {
-                    Exito = false,
-                    MensajeError = "El precio base y el incremento mínimo deben ser mayores a cero."
-                };
-            }
-
             var vendedorExiste = await _unitOfWork.Usuarios.ExisteAsync(request.VendedorId);
             if (!vendedorExiste)
             {
@@ -48,7 +32,6 @@ namespace SubastaYa.Servicios.Subastas.Commands
                 return new ResultadoCreacionDto { Exito = false, MensajeError = "La categoría indicada no existe." };
             }
 
-            // El estado inicial depende de si ya arrancó o todavía no.
             var estadoInicial = request.FechaInicio <= DateTime.UtcNow ? "ACTIVA" : "PROGRAMADA";
 
             var nuevaSubasta = new Subasta
@@ -64,6 +47,17 @@ namespace SubastaYa.Servicios.Subastas.Commands
                 Fecha_Fin = request.FechaFin,
                 Estado = estadoInicial
             };
+
+            try
+            {
+                // Acá es donde el Dominio aplica SUS PROPIAS reglas de negocio,
+                // no el Handler. Si algo está mal, tira la excepción.
+                nuevaSubasta.ValidarDatos();
+            }
+            catch (ArgumentException ex)
+            {
+                return new ResultadoCreacionDto { Exito = false, MensajeError = ex.Message };
+            }
 
             await _unitOfWork.Subastas.AddAsync(nuevaSubasta);
             await _unitOfWork.SaveChangesAsync();

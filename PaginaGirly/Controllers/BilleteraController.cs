@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SubastaYa.Servicios.Abstracciones;
-using SubastaYa.Servicios.Billetera.Queries;
 using SubastaYa.Servicios.Billetera.Commands;
+using SubastaYa.Servicios.Billetera.Queries;
 
 namespace PaginaGirly.Controllers
 {
@@ -18,7 +18,7 @@ namespace PaginaGirly.Controllers
             _mediator = mediator;
         }
 
-        // GET /api/wallet/balance?usuarioId=2
+        // GET /api/billetera/balance?usuarioId=2
         [HttpGet("balance")]
         public async Task<IActionResult> ObtenerSaldo([FromQuery] int usuarioId)
         {
@@ -32,7 +32,7 @@ namespace PaginaGirly.Controllers
             return Ok(saldo);
         }
 
-        // GET /api/wallet/transactions?usuarioId=2
+        // GET /api/billetera/transactions?usuarioId=2
         [HttpGet("transactions")]
         public async Task<IActionResult> ObtenerTransacciones([FromQuery] int usuarioId)
         {
@@ -46,7 +46,7 @@ namespace PaginaGirly.Controllers
             return Ok(transacciones);
         }
 
-        // POST /api/wallet/deposit
+        // POST /api/billetera/deposit
         [HttpPost("deposit")]
         public async Task<IActionResult> Depositar([FromBody] DepositarCommand command)
         {

@@ -1,0 +1,39 @@
+﻿.card-subasta {
+    transition: transform 0.15s ease;
+}
+
+    .card-subasta:hover {
+        transform: translateY(-4px);
+    }
+
+.tiempo-critico {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.estado-badge {
+    font-size: 0.75rem;
+}
+.temporizador {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+    .temporizador.zona-critica {
+        color: #dc3545;
+        animation: parpadeo 1s infinite;
+    }
+
+@keyframes parpadeo {
+    50% {
+        opacity: 0.4;
+    }
+}
+
+.badge-liderando {
+    background-color: #198754;
+}
+
+.badge-superado {
+    background-color: #dc3545;
+}

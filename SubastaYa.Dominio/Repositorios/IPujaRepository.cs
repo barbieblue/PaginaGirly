@@ -11,4 +11,3 @@ namespace SubastaYa.Dominio.Repositorios
         Task<List<Puja>> GetBySubastaIdAsync(int subastaId);
     }
 }
-

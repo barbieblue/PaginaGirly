@@ -17,8 +17,6 @@ namespace PaginaGirly.Controllers
             _mediator = mediator;
         }
 
-        // --- ENDPOINTS GET (CATÁLOGO) ---
-
         // GET /api/subastas?estado=ACTIVA&categoria=Tecnología
         [HttpGet]
         public async Task<IActionResult> GetSubastas([FromQuery] string? estado, [FromQuery] string? categoria)
@@ -40,8 +38,6 @@ namespace PaginaGirly.Controllers
 
             return Ok(detalle);
         }
-
-        // --- ENDPOINTS POST (PUJAS Y CREACIÓN) ---
 
         public class NuevaPujaDto
         {
@@ -81,7 +77,6 @@ namespace PaginaGirly.Controllers
                 return BadRequest(new { error = resultado.MensajeError });
             }
 
-            // 201 Created es el código correcto para "se creó un recurso nuevo".
             return CreatedAtAction(nameof(GetDetalle), new { id = resultado.SubastaId }, new { id = resultado.SubastaId });
         }
     }

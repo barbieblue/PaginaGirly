@@ -1,4 +1,9 @@
-﻿using SubastaYa.Dominio.Repositorios;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SubastaYa.Dominio.Repositorios;
 using SubastaYa.Servicios.Abstracciones;
 
 namespace SubastaYa.Servicios.Billetera.Queries

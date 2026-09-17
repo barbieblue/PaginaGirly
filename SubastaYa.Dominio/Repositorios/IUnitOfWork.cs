@@ -21,6 +21,7 @@ namespace SubastaYa.Dominio.Repositorios
         ITransaccionRepository Transacciones { get; }
         IAuditoriaRepository AuditoriaLogs { get; }
 
+        IAuditoriaRepository AuditoriaLogs { get; }
         Task<int> SaveChangesAsync();
     }
 }

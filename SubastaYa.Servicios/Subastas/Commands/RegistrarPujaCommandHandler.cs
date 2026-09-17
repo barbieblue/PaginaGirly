@@ -1,4 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using SubastaYa.Dominio;
 using SubastaYa.Dominio.Repositorios;
 using SubastaYa.Servicios.Abstracciones;
@@ -30,8 +35,6 @@ namespace SubastaYa.Servicios.Subastas.Commands
                     };
                 }
 
-                // Traemos el historial completo y sacamos la líder actual
-                // (la de mayor monto), igual que hacía el PujaService original.
                 var pujasPrevias = await _unitOfWork.Pujas.GetBySubastaIdAsync(request.SubastaId);
                 var pujaMaxima = pujasPrevias.OrderByDescending(p => p.Monto).FirstOrDefault();
 
@@ -126,6 +129,16 @@ namespace SubastaYa.Servicios.Subastas.Commands
                     Monto = request.Monto,
                     Fecha_Puja = DateTime.UtcNow
                 };
+
+                try
+                {
+                    nuevaPuja.ValidarDatos();
+                }
+                catch (ArgumentException ex)
+                {
+                    return new ResultadoPujaDto { Exito = false, MensajeError = ex.Message, StatusCode = 400 };
+                }
+
                 await _unitOfWork.Pujas.AddAsync(nuevaPuja);
 
                 // Un único SaveChangesAsync: todo lo de arriba se confirma
@@ -141,7 +154,7 @@ namespace SubastaYa.Servicios.Subastas.Commands
                 return new ResultadoPujaDto
                 {
                     Exito = false,
-                    MensajeError = "Conflicto de concurrencia: el estado de la subasta cambió. Intenta pujar de nuevo.",
+                    MensajeError = "Conflicto de concurrencia: el estado de la subasta cambió. Intentá pujar de nuevo.",
                     StatusCode = 409
                 };
             }

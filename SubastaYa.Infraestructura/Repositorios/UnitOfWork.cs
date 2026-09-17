@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using SubastaYa.Dominio.Repositorios;
 
 namespace SubastaYa.Infraestructura.Repositorios
@@ -18,6 +19,7 @@ namespace SubastaYa.Infraestructura.Repositorios
         public IPujaRepository Pujas { get; }
         public ITransaccionRepository Transacciones { get; }
         public IAuditoriaRepository AuditoriaLogs { get; }
+       
 
         public UnitOfWork(SubastaYaDbContext context)
         {

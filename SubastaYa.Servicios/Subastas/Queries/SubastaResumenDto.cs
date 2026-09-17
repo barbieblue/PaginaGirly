@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace SubastaYa.Servicios.Subastas.Queries
 {
-    // Lo que necesita el Módulo 1 (Catálogo) para pintar cada "card" de subasta:
-    // imagen, título, categoría, oferta más alta, cantidad de ofertas y el dato
-    // para armar el contador regresivo (Fecha_Fin).
+    // Lo que necesita el Módulo 1 (Catálogo) para pintar cada "card".
     public class SubastaResumenDto
     {
         public int Id { get; set; }

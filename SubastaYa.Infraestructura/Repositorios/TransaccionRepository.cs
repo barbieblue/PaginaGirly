@@ -1,6 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;   // para .ToListAsync()
-using SubastaYa.Dominio;               // para Transaccion_Ledger
-using SubastaYa.Dominio.Repositorios;  // para ITransaccionRepository
+﻿using Microsoft.EntityFrameworkCore;
+using SubastaYa.Dominio;
+using SubastaYa.Dominio.Repositorios;
 
 namespace SubastaYa.Infraestructura.Repositorios
 {

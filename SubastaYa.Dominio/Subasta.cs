@@ -38,5 +38,19 @@ namespace SubastaYa.Dominio
         public string Estado { get; set; } // PROGRAMADA, ACTIVA, FINALIZADA, DESIERTA
 
         public byte[] Version { get; set; } // optimistic locking
+
+        // Regla de negocio propia del Dominio: una Subasta nunca puede
+        // existir en un estado inválido, sin importar quién la cree.
+        public void ValidarDatos()
+        {
+            if (Precio_Base <= 0)
+                throw new ArgumentException("El precio base debe ser mayor a cero.");
+
+            if (Incremento_Minimo <= 0)
+                throw new ArgumentException("El incremento mínimo debe ser mayor a cero.");
+
+            if (Fecha_Fin <= Fecha_Inicio)
+                throw new ArgumentException("La fecha de fin debe ser posterior a la de inicio.");
+        }
     }
 }
