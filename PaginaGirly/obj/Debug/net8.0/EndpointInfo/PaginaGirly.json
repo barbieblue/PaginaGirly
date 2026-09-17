@@ -154,6 +154,22 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "vendedorId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "compradorId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
           }
         ],
         "responses": {
@@ -202,6 +218,14 @@
             "name": "id",
             "in": "path",
             "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "usuarioId",
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"

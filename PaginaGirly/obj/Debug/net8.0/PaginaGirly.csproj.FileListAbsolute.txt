@@ -292,3 +292,4 @@ D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\staticwebassets
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGi.035285D6.Up2Date
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\PaginaGirly.genruntimeconfig.cache
 D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\ref\PaginaGirly.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\PaginaGirly\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
