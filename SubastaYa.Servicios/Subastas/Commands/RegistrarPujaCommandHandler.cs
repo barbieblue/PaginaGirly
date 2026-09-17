@@ -66,6 +66,16 @@ namespace SubastaYa.Servicios.Subastas.Commands
                 decimal saldoDisponible = billeteraNueva.Saldo_Total - billeteraNueva.Saldo_Retenido;
                 if (saldoDisponible < request.Monto)
                 {
+                    await _unitOfWork.AuditoriaLogs.AddAsync(new Auditoria_Log
+                    {
+                        Entidad = "PUJA",
+                        Entidad_Id = request.SubastaId,
+                        Accion = "PUJA_RECHAZADA",
+                        Usuario_Id = request.UsuarioId,
+                        Detalle_Json = $"{{\"motivo\": \"Saldo insuficiente\", \"monto_intentado\": {request.Monto.ToString(System.Globalization.CultureInfo.InvariantCulture)}, \"disponible\": {saldoDisponible.ToString(System.Globalization.CultureInfo.InvariantCulture)}}}",
+                        Fecha = DateTime.UtcNow
+                    });
+                    await _unitOfWork.SaveChangesAsync();
                     return new ResultadoPujaDto
                     {
                         Exito = false,
@@ -136,10 +146,26 @@ namespace SubastaYa.Servicios.Subastas.Commands
                 }
                 catch (ArgumentException ex)
                 {
+                    await _unitOfWork.AuditoriaLogs.AddAsync(new Auditoria_Log
+                    {
+                        Entidad = "PUJA",
+                        Entidad_Id = request.SubastaId,
+                        Accion = "PUJA_RECHAZADA",
+                        Usuario_Id = request.UsuarioId,
+                        Detalle_Json = $"{{\"motivo\": \"{ex.Message}\", \"monto_intentado\": {request.Monto.ToString(System.Globalization.CultureInfo.InvariantCulture)}}}",
+                        Fecha = DateTime.UtcNow
+                    });
+                    await _unitOfWork.SaveChangesAsync();
                     return new ResultadoPujaDto { Exito = false, MensajeError = ex.Message, StatusCode = 400 };
                 }
 
                 await _unitOfWork.Pujas.AddAsync(nuevaPuja);
+
+                // Fuerza un UPDATE sobre la fila de Subasta en TODA puja aceptada.
+                // Sin esto, una puja que no dispara anti-sniping no modifica la
+                // entidad, EF no emite UPDATE, y el chequeo de RowVersion nunca
+                // corre: dos pujas simultáneas pasarían ambas sin detectar el conflicto.
+                _unitOfWork.Subastas.Update(subasta);
 
                 // Un único SaveChangesAsync: todo lo de arriba se confirma
                 // (o se descarta) como una sola operación atómica.
@@ -149,8 +175,9 @@ namespace SubastaYa.Servicios.Subastas.Commands
             }
             catch (DbUpdateConcurrencyException)
             {
-                // Optimistic Locking: otra puja tocó la misma Subasta/Billetera
-                // entre que la leímos y la guardamos. Ningún cambio se aplicó.
+                // No podemos usar _unitOfWork acá porque el contexto quedó en estado
+                // inválido tras la excepción. El log de concurrencia queda en el
+                // logger del sistema; el 409 le llega igual al cliente.
                 return new ResultadoPujaDto
                 {
                     Exito = false,

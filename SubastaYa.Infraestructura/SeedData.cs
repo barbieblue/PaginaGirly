@@ -38,7 +38,7 @@ namespace SubastaYa.Infraestructura
             // ---------- 4 BILLETERAS (según los montos exactos que pide la consigna) ----------
             var billeteraVendedor = new Billetera { Usuario_Id = vendedor.Id, Saldo_Total = 0, Saldo_Retenido = 0 };
             var billeteraComprador1 = new Billetera { Usuario_Id = comprador1.Id, Saldo_Total = 150000, Saldo_Retenido = 45000 };
-            var billeteraComprador2 = new Billetera { Usuario_Id = comprador2.Id, Saldo_Total = 200000, Saldo_Retenido = 0 };
+            var billeteraComprador2 = new Billetera { Usuario_Id = comprador2.Id, Saldo_Total = 200000, Saldo_Retenido = 23000 };
             var billeteraSinFondos = new Billetera { Usuario_Id = sinFondos.Id, Saldo_Total = 500, Saldo_Retenido = 0 };
 
             context.Billeteras.AddRange(billeteraVendedor, billeteraComprador1, billeteraComprador2, billeteraSinFondos);
@@ -164,7 +164,8 @@ namespace SubastaYa.Infraestructura
             context.Transacciones.AddRange(
                 new Transaccion_Ledger { Billetera_Id = billeteraComprador1.Id, Tipo = "DEPOSITO", Monto = 150000, Fecha = ahora.AddDays(-5) },
                 new Transaccion_Ledger { Billetera_Id = billeteraComprador1.Id, Tipo = "RETENCION", Monto = 45000, Fecha = puja2.Fecha_Puja, Subasta_Id = subastaActivaEstandar.Id },
-                new Transaccion_Ledger { Billetera_Id = billeteraComprador2.Id, Tipo = "DEPOSITO", Monto = 200000, Fecha = ahora.AddDays(-5) },
+                new Transaccion_Ledger { Billetera_Id = billeteraComprador2.Id, Tipo = "DEPOSITO", Monto = 200000, Fecha = ahora.AddDays(-5) },   
+                new Transaccion_Ledger { Billetera_Id = billeteraComprador2.Id, Tipo = "RETENCION", Monto = 23000, Fecha = pujaGanadora.Fecha_Puja, Subasta_Id = subastaVencidaConGanador.Id },
                 new Transaccion_Ledger { Billetera_Id = billeteraSinFondos.Id, Tipo = "DEPOSITO", Monto = 500, Fecha = ahora.AddDays(-5) }
             );
 

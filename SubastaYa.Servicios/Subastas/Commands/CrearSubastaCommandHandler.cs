@@ -40,7 +40,9 @@ namespace SubastaYa.Servicios.Subastas.Commands
                 Categoria_Id = request.CategoriaId,
                 Titulo = request.Titulo,
                 Descripcion = request.Descripcion,
-                Url_Imagen = request.UrlImagen,
+                Url_Imagen = string.IsNullOrEmpty(request.UrlImagen)
+                    ? "https://via.placeholder.com/300"
+                    : request.UrlImagen,
                 Precio_Base = request.PrecioBase,
                 Incremento_Minimo = request.IncrementoMinimo,
                 Fecha_Inicio = request.FechaInicio,

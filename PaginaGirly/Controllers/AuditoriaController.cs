@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SubastaYa.Servicios;
+using SubastaYa.Servicios.Abstracciones;
+using SubastaYa.Servicios.Auditoria.Queries;
 
 namespace PaginaGirly.Controllers
 {
@@ -7,18 +8,18 @@ namespace PaginaGirly.Controllers
     [ApiController]
     public class AuditoriaController : ControllerBase
     {
-        private readonly AuditoriaService _auditoriaService;
+        private readonly IMediator _mediator;
 
-        public AuditoriaController(AuditoriaService auditoriaService)
+        public AuditoriaController(IMediator mediator)
         {
-            _auditoriaService = auditoriaService;
+            _mediator = mediator;
         }
 
         // GET /api/auditoria
         [HttpGet]
         public async Task<IActionResult> GetTodo()
         {
-            var resultado = await _auditoriaService.ObtenerTodoAsync();
+            var resultado = await _mediator.Send(new ListarAuditoriaQuery());
             return Ok(resultado);
         }
 
@@ -26,7 +27,7 @@ namespace PaginaGirly.Controllers
         [HttpGet("{entidad}/{entidadId}")]
         public async Task<IActionResult> GetPorEntidad(string entidad, int entidadId)
         {
-            var resultado = await _auditoriaService.ObtenerPorEntidadAsync(entidad, entidadId);
+            var resultado = await _mediator.Send(new ListarAuditoriaQuery { Entidad = entidad, EntidadId = entidadId });
             return Ok(resultado);
         }
     }

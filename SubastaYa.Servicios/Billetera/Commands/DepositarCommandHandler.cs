@@ -50,6 +50,19 @@ namespace SubastaYa.Servicios.Billetera.Commands
                 Fecha = DateTime.UtcNow
             });
 
+            // Auditoría: la consigna pide registrar acreditaciones manuales de saldo.
+            // El Ledger registra el movimiento contable; este log registra el evento
+            // de negocio de forma inmutable y trazable.
+            await _unitOfWork.AuditoriaLogs.AddAsync(new Auditoria_Log
+            {
+                Entidad = "BILLETERA",
+                Entidad_Id = billetera.Id,
+                Accion = "DEPOSITO_MANUAL",
+                Usuario_Id = request.UsuarioId,
+                Detalle_Json = $"{{\"monto\": {request.Monto}}}",
+                Fecha = DateTime.UtcNow
+            });
+
             await _unitOfWork.SaveChangesAsync();
 
             return new DepositarResultadoDto

@@ -3,7 +3,6 @@
 const params = new URLSearchParams(window.location.search);
 const subastaId = params.get("id");
 
-
 // Genera una imagen placeholder local (SVG embebido), sin depender de
 // ningún servicio externo que pueda estar caído.
 function generarPlaceholder(texto) {
@@ -14,6 +13,7 @@ function generarPlaceholder(texto) {
     </svg>`;
     return `data:image/svg+xml;utf8,${encodeURIComponent(svg).replace(/'/g, "%27")}`;
 }
+
 function obtenerUsuarioActual() {
     return localStorage.getItem("usuarioActualId") || "";
 }
@@ -24,7 +24,7 @@ function fijarUsuarioActual(id) {
 
 let usuariosCache = [];
 let ultimoEstadoConocido = null;
-let yaRenderizadoUnaVez = false; // clave: distingue "primera carga" de "actualización"
+let yaRenderizadoUnaVez = false;
 
 async function cargarUsuarios() {
     const respuesta = await fetch(`${API_BASE}/usuarios`);
@@ -53,6 +53,17 @@ function formatearTiempo(diffMs) {
     return `${minutos}m ${segundos.toString().padStart(2, "0")}s`;
 }
 
+function renderizarHistorial(pujas) {
+    if (!pujas || pujas.length === 0) {
+        return `<li class="list-group-item text-muted">Sin ofertas aún.</li>`;
+    }
+    return pujas.map(p => `
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span><strong>${p.usuario}</strong> — $${p.monto.toLocaleString()}</span>
+            <small class="text-muted">${new Date(p.fechaPuja + 'Z').toLocaleTimeString()}</small>
+        </li>`).join("");
+}
+
 async function cargarDetalle() {
     const respuesta = await fetch(`${API_BASE}/subastas/${subastaId}`);
 
@@ -64,9 +75,6 @@ async function cargarDetalle() {
 
     const subasta = await respuesta.json();
 
-    // Primera vez: armamos toda la estructura (imagen, selects, etc.).
-    // Las veces siguientes (polling): solo actualizamos números, sin tocar
-    // lo que el usuario esté escribiendo o eligiendo.
     if (!yaRenderizadoUnaVez) {
         renderizarEstructuraCompleta(subasta);
         yaRenderizadoUnaVez = true;
@@ -75,8 +83,6 @@ async function cargarDetalle() {
     }
 }
 
-// Se ejecuta UNA sola vez: crea el HTML, la imagen, el select de usuarios,
-// y el input de monto con su valor inicial sugerido.
 function renderizarEstructuraCompleta(subasta) {
     const usuarioActual = obtenerUsuarioActual();
     ultimoEstadoConocido = subasta;
@@ -114,6 +120,12 @@ function renderizarEstructuraCompleta(subasta) {
                         </div>
 
                         <button id="btnPujar" class="btn btn-primary w-100">Ofertar</button>
+
+                        <hr>
+                        <h6 class="text-start mt-2">Historial de ofertas</h6>
+                        <ul class="list-group list-group-flush" id="historialPujas">
+                            ${renderizarHistorial(subasta.pujas)}
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -126,10 +138,7 @@ function renderizarEstructuraCompleta(subasta) {
     actualizarTemporizadorYEstado(subasta);
 }
 
-// Se ejecuta en cada poll (cada 3s): SOLO toca los textos que cambian,
-// nunca el input ni el select, para no interrumpir al usuario mientras escribe.
 function actualizarValoresDinamicos(subasta) {
-    // Aviso de extensión anti-sniping, si la fecha de fin cambió desde el último poll.
     if (ultimoEstadoConocido && ultimoEstadoConocido.fechaFin !== subasta.fechaFin && subasta.estado === "ACTIVA") {
         mostrarToast("¡La subasta se extendió 2 minutos por una oferta de último momento!", "info");
     }
@@ -139,6 +148,12 @@ function actualizarValoresDinamicos(subasta) {
     document.getElementById("ofertaMasAlta").textContent = `$${subasta.ofertaMasAlta.toLocaleString()}`;
     document.getElementById("cantidadOfertas").textContent = subasta.cantidadOfertas;
     document.getElementById("labelSugerido").textContent = `Tu oferta (sugerido: $${subasta.proximaOfertaSugerida.toLocaleString()})`;
+
+    // Actualizar historial de pujas en cada poll
+    const historial = document.getElementById("historialPujas");
+    if (historial) {
+        historial.innerHTML = renderizarHistorial(subasta.pujas);
+    }
 
     actualizarTemporizadorYEstado(subasta);
 }

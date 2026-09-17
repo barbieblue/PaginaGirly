@@ -5,10 +5,13 @@ using SubastaYa.Infraestructura.Repositorios;
 using SubastaYa.Infraestructura.Workers;
 using SubastaYa.Servicios;
 using SubastaYa.Servicios.Abstracciones;
+using SubastaYa.Servicios.Auditoria.Queries;
 using SubastaYa.Servicios.Billetera.Commands;
 using SubastaYa.Servicios.Billetera.Queries;
+using SubastaYa.Servicios.Categorias.Queries;
 using SubastaYa.Servicios.Subastas.Commands;
 using SubastaYa.Servicios.Subastas.Queries;
+using SubastaYa.Servicios.Usuarios.Queries;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -23,11 +26,12 @@ builder.Services.AddDbContext<SubastaYaDbContext>(options =>
 // --- Proceso en segundo plano (cierre automático de subastas vencidas) ---
 builder.Services.AddHostedService<ProcesosCierreSubastas>();
 
-// --- Repository + Unit of Work ---
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
 // --- Mediator (implementación propia, sin librería) ---
 builder.Services.AddScoped<IMediator, Mediator>();
+
+// --- Handlers de Categorías ---
+builder.Services.AddScoped<IRequestHandler<ListarCategoriasQuery, List<CategoriaDto>>, ListarCategoriasQueryHandler>();
+
 
 // --- Handlers de Subastas ---
 builder.Services.AddScoped<IRequestHandler<ListarSubastasQuery, List<SubastaResumenDto>>, ListarSubastasQueryHandler>();
@@ -40,11 +44,11 @@ builder.Services.AddScoped<IRequestHandler<ObtenerSaldoQuery, SaldoDto?>, Obtene
 builder.Services.AddScoped<IRequestHandler<ListarTransaccionesQuery, List<TransaccionDto>?>, ListarTransaccionesQueryHandler>();
 builder.Services.AddScoped<IRequestHandler<DepositarCommand, DepositarResultadoDto>, DepositarCommandHandler>();
 
-// --- Services que todavía NO están migrados a CQRS ---
-// (los usan CategoriasController, UsuarioController y AuditoriaController)
-builder.Services.AddScoped<CatalogoService>();
-builder.Services.AddScoped<AuditoriaService>();
-builder.Services.AddScoped<UsuarioService>();
+// -- Handlers de Usuario ---
+builder.Services.AddScoped<IRequestHandler<ListarUsuariosQuery, List<UsuarioDto>>, ListarUsuariosQueryHandler>();
+
+// -- Handlers de Auditoria ---
+builder.Services.AddScoped<IRequestHandler<ListarAuditoriaQuery, List<AuditoriaLogDto>>, ListarAuditoriaQueryHandler>();
 
 var app = builder.Build();
 

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SubastaYa.Servicios;
+using SubastaYa.Servicios.Abstracciones;
+using SubastaYa.Servicios.Usuarios.Queries;
 
 namespace PaginaGirly.Controllers
 {
@@ -7,18 +8,18 @@ namespace PaginaGirly.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private readonly UsuarioService _usuarioService;
+        private readonly IMediator _mediator;
 
-        public UsuarioController(UsuarioService usuarioService)
+        public UsuarioController(IMediator mediator)
         {
-            _usuarioService = usuarioService;
+            _mediator = mediator;
         }
 
         // GET /api/usuarios
         [HttpGet]
         public async Task<IActionResult> GetUsuarios()
         {
-            var usuarios = await _usuarioService.ObtenerUsuariosAsync();
+            var usuarios = await _mediator.Send(new ListarUsuariosQuery());
             return Ok(usuarios);
         }
     }

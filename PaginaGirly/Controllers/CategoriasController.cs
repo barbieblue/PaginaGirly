@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SubastaYa.Servicios;
+using SubastaYa.Servicios.Abstracciones;
+using SubastaYa.Servicios.Categorias.Queries;
 
 namespace PaginaGirly.Controllers
 {
@@ -7,18 +8,18 @@ namespace PaginaGirly.Controllers
     [ApiController]
     public class CategoriasController : ControllerBase
     {
-        private readonly CatalogoService _catalogoService;
+        private readonly IMediator _mediator;
 
-        public CategoriasController(CatalogoService catalogoService)
+        public CategoriasController(IMediator mediator)
         {
-            _catalogoService = catalogoService;
+            _mediator = mediator;
         }
 
         // GET /api/categorias
         [HttpGet]
         public async Task<IActionResult> GetCategorias()
         {
-            var categorias = await _catalogoService.ObtenerCategoriasAsync();
+            var categorias = await _mediator.Send(new ListarCategoriasQuery());
             return Ok(categorias);
         }
     }

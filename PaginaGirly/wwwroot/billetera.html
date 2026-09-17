@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubastaYa - Billetera</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a href="index.html" class="navbar-brand mb-0 h1">🔨 SubastaYa</a>
+            <a href="publicar.html" class="btn btn-outline-light btn-sm">+ Publicar subasta</a>
+        </div>
+    </nav>
+
+    <div class="container" style="max-width: 720px;">
+        <h2 class="mb-4">Mi billetera</h2>
+
+        <!-- Selector de usuario -->
+        <div class="mb-4">
+            <label class="form-label">Ver billetera de:</label>
+            <select id="selectUsuario" class="form-select">
+                <option value="">Elegí un usuario...</option>
+            </select>
+        </div>
+
+        <!-- Panel de saldo -->
+        <div id="panelSaldo" class="d-none">
+            <div class="row g-3 mb-4">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="text-muted mb-1">Saldo total</p>
+                            <h4 id="saldoTotal" class="text-dark">—</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="text-muted mb-1">En garantía</p>
+                            <h4 id="saldoRetenido" class="text-warning">—</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="text-muted mb-1">Disponible</p>
+                            <h4 id="saldoDisponible" class="text-success">—</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulario de depósito -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title mb-3">Cargar saldo</h5>
+                    <div id="alertaDeposito" class="d-none mb-3"></div>
+                    <div class="input-group">
+                        <span class="input-group-text">$</span>
+                        <input type="number" id="inputDeposito" class="form-control" placeholder="Monto a depositar" min="1">
+                        <button id="btnDepositar" class="btn btn-success">Depositar</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Historial de movimientos -->
+            <h5 class="mb-3">Historial de movimientos</h5>
+            <div id="historialMovimientos">
+                <p class="text-muted">Sin movimientos.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/billetera.js"></script>
+</body>
+</html>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 namespace SubastaYa.Servicios.Subastas.Queries
 {
     public class SubastaDetalleDto
@@ -21,5 +22,13 @@ namespace SubastaYa.Servicios.Subastas.Queries
         public decimal OfertaMasAlta { get; set; }
         public int CantidadOfertas { get; set; }
         public decimal ProximaOfertaSugerida { get; set; }
+        public List<PujaDetalleDto> Pujas { get; set; } = new();
+    }
+
+    public class PujaDetalleDto
+    {
+        public string Usuario { get; set; } = string.Empty;
+        public decimal Monto { get; set; }
+        public DateTime FechaPuja { get; set; }
     }
 }

@@ -29,6 +29,24 @@ namespace SubastaYa.Servicios.Subastas.Queries
             var pujas = await _unitOfWork.Pujas.GetBySubastaIdAsync(subasta.Id);
             var ofertaMasAlta = pujas.Count > 0 ? pujas.Max(p => p.Monto) : subasta.Precio_Base;
 
+            // Cargamos usuarios para mostrar nombre anonimizado en el historial
+            var usuarios = await _unitOfWork.Usuarios.GetAllAsync();
+            var historial = pujas
+                .OrderByDescending(p => p.Fecha_Puja)
+                .Select(p =>
+                {
+                    var usuario = usuarios.FirstOrDefault(u => u.Id == p.Comprador_Id);
+                    var nombreAnon = usuario != null
+                        ? usuario.Nombre.Split(' ')[0] + " " + usuario.Nombre[usuario.Nombre.Length - 1] + "."
+                        : "Usuario";
+                    return new PujaDetalleDto
+                    {
+                        Usuario = nombreAnon,
+                        Monto = p.Monto,
+                        FechaPuja = p.Fecha_Puja
+                    };
+                }).ToList();
+
             return new SubastaDetalleDto
             {
                 Id = subasta.Id,
@@ -44,7 +62,8 @@ namespace SubastaYa.Servicios.Subastas.Queries
                 UrlImagen = subasta.Url_Imagen,
                 OfertaMasAlta = ofertaMasAlta,
                 CantidadOfertas = pujas.Count,
-                ProximaOfertaSugerida = ofertaMasAlta + subasta.Incremento_Minimo
+                ProximaOfertaSugerida = ofertaMasAlta + subasta.Incremento_Minimo,
+                Pujas = historial
             };
         }
     }
