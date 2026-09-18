@@ -23,14 +23,14 @@ namespace SubastaYa.Servicios.Billetera.Queries
 
             if (billetera == null)
             {
-                return null; // el Controller decide si esto es 404
+                return null;
             }
 
             return new SaldoDto
             {
                 SaldoTotal = billetera.Saldo_Total,
                 SaldoRetenido = billetera.Saldo_Retenido,
-                SaldoDisponible = billetera.Saldo_Disponible // propiedad calculada del Dominio
+                SaldoDisponible = billetera.Saldo_Disponible 
             };
         }
     }

@@ -39,8 +39,6 @@ namespace SubastaYa.Dominio
 
         public byte[] Version { get; set; } // optimistic locking
 
-        // Regla de negocio propia del Dominio: una Subasta nunca puede
-        // existir en un estado inválido, sin importar quién la cree.
         public void ValidarDatos()
         {
             if (Precio_Base <= 0)

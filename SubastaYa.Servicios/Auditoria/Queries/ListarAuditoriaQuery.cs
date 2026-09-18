@@ -7,9 +7,6 @@ using SubastaYa.Servicios.Abstracciones;
 
 namespace SubastaYa.Servicios.Auditoria.Queries
 {
-    // Si Entidad/EntidadId vienen null, se trae TODO el historial (caso
-    // "GetTodo" del Controller viejo). Si vienen cargados, filtra por esa
-    // entidad puntual (caso "GetPorEntidad").
     public class ListarAuditoriaQuery : IRequest<List<AuditoriaLogDto>>
     {
         public string? Entidad { get; set; }

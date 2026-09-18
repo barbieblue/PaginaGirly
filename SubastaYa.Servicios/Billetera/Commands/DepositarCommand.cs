@@ -7,7 +7,6 @@ using SubastaYa.Servicios.Abstracciones;
 
 namespace SubastaYa.Servicios.Billetera.Commands
 {
-    // Módulo 4: "Carga de Saldo Simulada".
     public class DepositarCommand : IRequest<DepositarResultadoDto>
     {
         public int UsuarioId { get; set; }

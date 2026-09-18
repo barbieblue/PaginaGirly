@@ -13,28 +13,18 @@ using SubastaYa.Dominio.Repositorios;
 
 namespace SubastaYa.Infraestructura.Workers
 {
-    // BackgroundService es una clase base de .NET pensada exactamente para esto:
-    // un proceso que corre en paralelo al servidor web, todo el tiempo que la
-    // app esté prendida, revisando algo cada cierto tiempo.
     public class ProcesosCierreSubastas : BackgroundService
     {
         private readonly IServiceScopeFactory _scopeFactory;
         private readonly ILogger<ProcesosCierreSubastas> _logger;
         private readonly TimeSpan _intervalo = TimeSpan.FromSeconds(30);
 
-        // OJO: el Worker es un "singleton" (una única instancia viva todo el
-        // programa), pero el DbContext es "scoped" (una instancia por request).
-        // Por eso no podemos inyectar IUnitOfWork directo en el constructor —
-        // necesitamos un "fabricador de scopes" (IServiceScopeFactory) para
-        // crear un scope nuevo cada vez que el Worker necesita hablar con la base.
         public ProcesosCierreSubastas(IServiceScopeFactory scopeFactory, ILogger<ProcesosCierreSubastas> logger)
         {
             _scopeFactory = scopeFactory;
             _logger = logger;
         }
 
-        // Este método arranca solo cuando la aplicación levanta, y corre en loop
-        // hasta que la aplicación se apaga.
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
@@ -45,8 +35,6 @@ namespace SubastaYa.Infraestructura.Workers
                 }
                 catch (Exception ex)
                 {
-                    // Si algo sale mal en una vuelta, lo logueamos pero NO frenamos
-                    // el Worker — tiene que seguir intentando en la próxima vuelta.
                     _logger.LogError(ex, "Error al procesar subastas vencidas.");
                 }
 
@@ -61,7 +49,6 @@ namespace SubastaYa.Infraestructura.Workers
 
             var ahora = DateTime.UtcNow;
 
-            // Buscamos subastas activas cuya fecha de fin ya pasó.
             var subastasVencidas = await unitOfWork.Subastas
                 .Consultar()
                 .Where(s => s.Estado == "ACTIVA" && s.Fecha_Fin <= ahora)
@@ -82,10 +69,6 @@ namespace SubastaYa.Infraestructura.Workers
 
                 try
                 {
-                    // Un SaveChangesAsync por subasta: si una falla (por ejemplo,
-                    // por un conflicto de concurrencia con una puja que llegó
-                    // justo en este instante), las demás subastas del lote
-                    // siguen procesándose igual.
                     await unitOfWork.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException ex)
@@ -151,8 +134,6 @@ namespace SubastaYa.Infraestructura.Workers
 
         private async Task RegistrarAuditoriaAsync(IUnitOfWork unitOfWork, int subastaId, string accion, string detalle)
         {
-            // "Usuario_Id: null" porque este cambio lo ejecutó el Worker,
-            // no una persona — así lo distinguimos en el log, como pide la consigna.
             await unitOfWork.AuditoriaLogs.AddAsync(new Auditoria_Log
             {
                 Entidad = "SUBASTA",

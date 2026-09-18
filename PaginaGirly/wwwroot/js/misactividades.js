@@ -29,8 +29,7 @@ function formatearTiempoRestante(fechaFin) {
 }
 
 function renderizarCards(subastas, modo) {
-    // modo: "pujas" muestra badge Liderando/Superado
-    //       "publicaciones" muestra métricas de recaudación
+
     if (!subastas || subastas.length === 0) {
         return `<p class="text-muted">No hay resultados.</p>`;
     }
@@ -45,7 +44,7 @@ function renderizarCards(subastas, modo) {
                 ? `<span class="badge bg-secondary">${s.estado}</span>`
                 : `<span class="badge bg-warning text-dark">${s.estado}</span>`;
 
-        // Badge de liderazgo solo en "Mis Pujas"
+      
         const liderazgoBadge = modo === "pujas"
             ? s.esLider
                 ? `<span class="badge bg-success ms-1">Liderando</span>`

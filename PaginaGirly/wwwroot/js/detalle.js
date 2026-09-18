@@ -3,8 +3,7 @@
 const params = new URLSearchParams(window.location.search);
 const subastaId = params.get("id");
 
-// Genera una imagen placeholder local (SVG embebido), sin depender de
-// ningún servicio externo que pueda estar caído.
+
 function generarPlaceholder(texto) {
     const inicial = (texto || "P").charAt(0).toUpperCase();
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300">
@@ -64,8 +63,7 @@ function renderizarHistorial(pujas) {
         </li>`).join("");
 }
 
-// NUEVO: pinta el badge "Liderando"/"Superado" según subasta.esLider,
-// que viene del backend calculado con el usuario actual (Módulo 3).
+
 function actualizarBadgeLider(subasta) {
     const contenedor = document.getElementById("badgeLider");
     if (!contenedor) return;
@@ -82,8 +80,7 @@ function actualizarBadgeLider(subasta) {
 }
 
 async function cargarDetalle() {
-    // NUEVO: se manda el usuario actual como query param para que el backend
-    // calcule EsLider correctamente.
+  
     const usuarioActual = obtenerUsuarioActual();
     const query = usuarioActual ? `?usuarioId=${usuarioActual}` : "";
     const respuesta = await fetch(`${API_BASE}/subastas/${subastaId}${query}`);
@@ -156,7 +153,7 @@ function renderizarEstructuraCompleta(subasta) {
 
     document.getElementById("selectUsuario").addEventListener("change", (e) => {
         fijarUsuarioActual(e.target.value);
-        cargarDetalle(); // NUEVO: refresca de inmediato el badge al cambiar de usuario
+        cargarDetalle();
     });
     document.getElementById("btnPujar").addEventListener("click", registrarPuja);
 
@@ -175,7 +172,7 @@ function actualizarValoresDinamicos(subasta) {
     document.getElementById("cantidadOfertas").textContent = subasta.cantidadOfertas;
     document.getElementById("labelSugerido").textContent = `Tu oferta (sugerido: $${subasta.proximaOfertaSugerida.toLocaleString()})`;
 
-    // Actualizar historial de pujas en cada poll
+   
     const historial = document.getElementById("historialPujas");
     if (historial) {
         historial.innerHTML = renderizarHistorial(subasta.pujas);

@@ -26,7 +26,7 @@ builder.Services.AddDbContext<SubastaYaDbContext>(options =>
 // --- Proceso en segundo plano (cierre automático de subastas vencidas) ---
 builder.Services.AddHostedService<ProcesosCierreSubastas>();
 
-// --- Mediator (implementación propia, sin librería) ---
+// --- Mediator ---
 builder.Services.AddScoped<IMediator, Mediator>();
 
 // --- Handlers de Categorías ---
@@ -66,10 +66,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseDefaultFiles();
 
-// En Desarrollo, le pedimos al navegador que nunca guarde en caché los
-// archivos estáticos (CSS/JS/HTML de wwwroot): así cada cambio se ve al
-// instante con un F5 normal, sin tener que abrir DevTools y tildar
-// "Disable cache" a mano cada vez.
 app.UseStaticFiles(new StaticFileOptions
 {
     OnPrepareResponse = ctx =>

@@ -8,7 +8,6 @@ namespace SubastaYa.Dominio.Repositorios
 {
     public interface IBilleteraRepository : IRepository<Billetera>
     {
-        // La consulta más usada de todo el TP: la billetera de un usuario puntual.
         Task<Billetera?> GetByUsuarioIdAsync(int usuarioId);
     }
 }

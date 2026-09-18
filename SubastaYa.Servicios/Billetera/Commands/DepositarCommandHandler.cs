@@ -41,7 +41,6 @@ namespace SubastaYa.Servicios.Billetera.Commands
 
             billetera.Saldo_Total += request.Monto;
 
-            // Módulo 4: "Historial de Movimientos: tabla con el detalle de ingresos..."
             await _unitOfWork.Transacciones.AddAsync(new Transaccion_Ledger
             {
                 Billetera_Id = billetera.Id,
@@ -50,9 +49,6 @@ namespace SubastaYa.Servicios.Billetera.Commands
                 Fecha = DateTime.UtcNow
             });
 
-            // Auditoría: la consigna pide registrar acreditaciones manuales de saldo.
-            // El Ledger registra el movimiento contable; este log registra el evento
-            // de negocio de forma inmutable y trazable.
             await _unitOfWork.AuditoriaLogs.AddAsync(new Auditoria_Log
             {
                 Entidad = "BILLETERA",

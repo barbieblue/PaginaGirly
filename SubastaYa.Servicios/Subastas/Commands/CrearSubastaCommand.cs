@@ -7,7 +7,6 @@ using SubastaYa.Servicios.Abstracciones;
 
 namespace SubastaYa.Servicios.Subastas.Commands
 {
-    // El Command transporta los datos del formulario de publicación (Módulo 2).
     public class CrearSubastaCommand : IRequest<ResultadoCreacionDto>
     {
         public int VendedorId { get; set; }
