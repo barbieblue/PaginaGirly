@@ -1,0 +1,79 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SubastaYa.Dominio.Repositorios;
+using SubastaYa.Servicios.Abstracciones;
+
+namespace SubastaYa.Servicios.Subastas.Queries
+{
+    public class ObtenerDetalleSubastaQueryHandler : IRequestHandler<ObtenerDetalleSubastaQuery, SubastaDetalleDto?>
+    {
+        private readonly IUnitOfWork _unitOfWork;
+
+        public ObtenerDetalleSubastaQueryHandler(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+
+        public async Task<SubastaDetalleDto?> Handle(ObtenerDetalleSubastaQuery request)
+        {
+            var subasta = await _unitOfWork.Subastas.GetByIdConCategoriaAsync(request.SubastaId);
+
+            if (subasta == null)
+            {
+                return null;
+            }
+
+            var pujas = await _unitOfWork.Pujas.GetBySubastaIdAsync(subasta.Id);
+            var ofertaMasAlta = pujas.Count > 0 ? pujas.Max(p => p.Monto) : subasta.Precio_Base;
+
+            // NUEVO: determina si el usuario que consulta (request.UsuarioId) es
+            // el autor de la puja líder actual. El frontend usa esto para
+            // mostrar el badge "Liderando"/"Superado" (Módulo 3 de la consigna).
+            var pujaLider = pujas.OrderByDescending(p => p.Monto).FirstOrDefault();
+            bool esLider = request.UsuarioId.HasValue &&
+                           pujaLider != null &&
+                           pujaLider.Comprador_Id == request.UsuarioId.Value;
+
+            // Cargamos usuarios para mostrar nombre anonimizado en el historial
+            var usuarios = await _unitOfWork.Usuarios.GetAllAsync();
+            var historial = pujas
+                .OrderByDescending(p => p.Fecha_Puja)
+                .Select(p =>
+                {
+                    var usuario = usuarios.FirstOrDefault(u => u.Id == p.Comprador_Id);
+                    var nombreAnon = usuario != null
+                        ? usuario.Nombre.Split(' ')[0] + " " + usuario.Nombre[usuario.Nombre.Length - 1] + "."
+                        : "Usuario";
+                    return new PujaDetalleDto
+                    {
+                        Usuario = nombreAnon,
+                        Monto = p.Monto,
+                        FechaPuja = p.Fecha_Puja
+                    };
+                }).ToList();
+
+            return new SubastaDetalleDto
+            {
+                Id = subasta.Id,
+                Titulo = subasta.Titulo,
+                Descripcion = subasta.Descripcion,
+                Categoria = subasta.Categoria.Nombre,
+                Vendedor = subasta.Vendedor.Nombre,
+                PrecioBase = subasta.Precio_Base,
+                IncrementoMinimo = subasta.Incremento_Minimo,
+                FechaInicio = subasta.Fecha_Inicio,
+                FechaFin = subasta.Fecha_Fin,
+                Estado = subasta.Estado,
+                UrlImagen = subasta.Url_Imagen,
+                OfertaMasAlta = ofertaMasAlta,
+                CantidadOfertas = pujas.Count,
+                ProximaOfertaSugerida = ofertaMasAlta + subasta.Incremento_Minimo,
+                EsLider = esLider,
+                Pujas = historial
+            };
+        }
+    }
+}

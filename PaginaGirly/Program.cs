@@ -1,34 +1,89 @@
-using Microsoft.EntityFrameworkCore;      // necesario para AddDbContext y UseSqlServer
-using SubastaYa.Infraestructura;          // necesario para poder usar la clase SubastaYaDbContext
+using Microsoft.EntityFrameworkCore;
+using SubastaYa.Dominio.Repositorios;
+using SubastaYa.Infraestructura;
+using SubastaYa.Infraestructura.Repositorios;
+using SubastaYa.Infraestructura.Workers;
+using SubastaYa.Servicios;
+using SubastaYa.Servicios.Abstracciones;
+using SubastaYa.Servicios.Auditoria.Queries;
+using SubastaYa.Servicios.Billetera.Commands;
+using SubastaYa.Servicios.Billetera.Queries;
+using SubastaYa.Servicios.Categorias.Queries;
+using SubastaYa.Servicios.Subastas.Commands;
+using SubastaYa.Servicios.Subastas.Queries;
+using SubastaYa.Servicios.Usuarios.Queries;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Registramos el DbContext como servicio disponible para toda la app.
-// Le decimos que use SQL Server, y le pasamos la cadena de conexi√≥n
-// que definimos en appsettings.json bajo la clave "DefaultConnection".
 builder.Services.AddDbContext<SubastaYaDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-var app = builder.Build();  // a partir de ac√° ya no se pueden registrar m√°s servicios
+// --- Proceso en segundo plano (cierre autom·tico de subastas vencidas) ---
+builder.Services.AddHostedService<ProcesosCierreSubastas>();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+// --- Mediator (implementaciÛn propia, sin librerÌa) ---
+builder.Services.AddScoped<IMediator, Mediator>();
+
+// --- Handlers de CategorÌas ---
+builder.Services.AddScoped<IRequestHandler<ListarCategoriasQuery, List<CategoriaDto>>, ListarCategoriasQueryHandler>();
+
+
+// --- Handlers de Subastas ---
+builder.Services.AddScoped<IRequestHandler<ListarSubastasQuery, List<SubastaResumenDto>>, ListarSubastasQueryHandler>();
+builder.Services.AddScoped<IRequestHandler<ObtenerDetalleSubastaQuery, SubastaDetalleDto?>, ObtenerDetalleSubastaQueryHandler>();
+builder.Services.AddScoped<IRequestHandler<CrearSubastaCommand, ResultadoCreacionDto>, CrearSubastaCommandHandler>();
+builder.Services.AddScoped<IRequestHandler<RegistrarPujaCommand, ResultadoPujaDto>, RegistrarPujaCommandHandler>();
+
+// --- Handlers de Billetera ---
+builder.Services.AddScoped<IRequestHandler<ObtenerSaldoQuery, SaldoDto?>, ObtenerSaldoQueryHandler>();
+builder.Services.AddScoped<IRequestHandler<ListarTransaccionesQuery, List<TransaccionDto>?>, ListarTransaccionesQueryHandler>();
+builder.Services.AddScoped<IRequestHandler<DepositarCommand, DepositarResultadoDto>, DepositarCommandHandler>();
+
+// -- Handlers de Usuario ---
+builder.Services.AddScoped<IRequestHandler<ListarUsuariosQuery, List<UsuarioDto>>, ListarUsuariosQueryHandler>();
+
+// -- Handlers de Auditoria ---
+builder.Services.AddScoped<IRequestHandler<ListarAuditoriaQuery, List<AuditoriaLogDto>>, ListarAuditoriaQueryHandler>();
+
+var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
 {
-    app.UseSwagger();       // genera el JSON de OpenAPI
-    app.UseSwaggerUI();     // genera la p√°gina visual de Swagger que ya viste antes
+    var context = scope.ServiceProvider.GetRequiredService<SubastaYaDbContext>();
+    SeedData.Inicializar(context);
 }
 
-app.UseHttpsRedirection();  // redirige requests HTTP a HTTPS
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-app.UseAuthorization();     // middleware de autorizaci√≥n (todav√≠a no lo configuramos, pero viene default)
+app.UseDefaultFiles();
 
-app.MapControllers();       // conecta las rutas de tus Controllers con el sistema de routing
+// En Desarrollo, le pedimos al navegador que nunca guarde en cachÈ los
+// archivos est·ticos (CSS/JS/HTML de wwwroot): asÌ cada cambio se ve al
+// instante con un F5 normal, sin tener que abrir DevTools y tildar
+// "Disable cache" a mano cada vez.
+app.UseStaticFiles(new StaticFileOptions
+{
+    OnPrepareResponse = ctx =>
+    {
+        if (app.Environment.IsDevelopment())
+        {
+            ctx.Context.Response.Headers["Cache-Control"] = "no-cache, no-store, must-revalidate";
+            ctx.Context.Response.Headers["Pragma"] = "no-cache";
+            ctx.Context.Response.Headers["Expires"] = "0";
+        }
+    }
+});
 
-app.Run();                  // arranca el servidor y se queda escuchando requests
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();

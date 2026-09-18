@@ -10,3 +10,15 @@ E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio
 E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\refint\SubastaYa.Dominio.dll
 E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.pdb
 E:\probabilidad\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\ref\SubastaYa.Dominio.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\bin\Debug\net8.0\SubastaYa.Dominio.deps.json
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\bin\Debug\net8.0\SubastaYa.Dominio.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\bin\Debug\net8.0\SubastaYa.Dominio.pdb
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.AssemblyInfoInputs.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.AssemblyInfo.cs
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.csproj.CoreCompileInputs.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.sourcelink.json
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\refint\SubastaYa.Dominio.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\SubastaYa.Dominio.pdb
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Dominio\obj\Debug\net8.0\ref\SubastaYa.Dominio.dll

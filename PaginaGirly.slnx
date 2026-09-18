@@ -2,4 +2,5 @@
   <Project Path="PaginaGirly/PaginaGirly.csproj" />
   <Project Path="SubastaYa.Dominio/SubastaYa.Dominio.csproj" Id="c184d47e-5473-496d-addf-5ed0ef13307d" />
   <Project Path="SubastaYa.Infraestructura/SubastaYa.Infraestructura.csproj" Id="e6db44e4-6690-4915-9c89-33fcbad39738" />
+  <Project Path="SubastaYa.Servicios/SubastaYa.Servicios.csproj" Id="dde023f9-d619-48e6-9274-7e3f265318f4" />
 </Solution>

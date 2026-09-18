@@ -1,0 +1,303 @@
+﻿/* =============================================
+   PALETA VIOLETA INTENSO — SubastaYa
+   ============================================= */
+:root {
+    --violeta-principal: #5b21b6;
+    --violeta-oscuro: #3b0764;
+    --violeta-medio: #7c3aed;
+    --violeta-claro: #ede9fe;
+    --violeta-hover: #4c1d95;
+    --acento: #a78bfa;
+    --texto-sobre-violeta: #ffffff;
+    --fondo-body: #f5f3ff;
+    --fondo-card: #ffffff;
+    --texto-principal: #1e1b4b;
+    --texto-muted: #6b7280;
+    --borde: #ddd6fe;
+}
+
+/* =============================================
+   BASE
+   ============================================= */
+body {
+    background-color: var(--fondo-body);
+    color: var(--texto-principal);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* =============================================
+   NAVBAR
+   ============================================= */
+.navbar {
+    background: linear-gradient(135deg, var(--violeta-oscuro), var(--violeta-principal)) !important;
+    box-shadow: 0 2px 12px rgba(91, 33, 182, 0.4);
+    padding: 0.75rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--texto-sobre-violeta) !important;
+    letter-spacing: 0.5px;
+}
+
+.navbar .btn-outline-light {
+    border-color: rgba(255,255,255,0.4);
+    color: rgba(255,255,255,0.9);
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: rgba(255,255,255,0.15);
+    border-color: white;
+    color: white;
+}
+
+nav.navbar {
+    background: linear-gradient(135deg, #3b0764, #5b21b6) !important;
+}
+
+/* =============================================
+   TÍTULOS Y HEADINGS
+   ============================================= */
+h2, h3, h4, h5, h6 {
+    color: var(--texto-principal);
+    font-weight: 700;
+}
+
+/* =============================================
+   CARDS DEL CATÁLOGO
+   ============================================= */
+.card {
+    border: 1px solid var(--borde);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(91, 33, 182, 0.08);
+    background-color: var(--fondo-card);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-subasta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(91, 33, 182, 0.18);
+}
+
+.card-img-top {
+    border-radius: 12px 12px 0 0;
+}
+
+/* =============================================
+   BADGES DE ESTADO
+   ============================================= */
+.badge {
+    font-size: 0.7rem;
+    padding: 0.35em 0.65em;
+    border-radius: 6px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+/* Sobreescribimos los colores de Bootstrap para coherencia */
+.badge.bg-success { background-color: #059669 !important; }
+.badge.bg-danger  { background-color: #dc2626 !important; }
+.badge.bg-warning { background-color: #d97706 !important; color: white !important; }
+.badge.bg-info    { background-color: #0891b2 !important; color: white !important; }
+.badge.bg-secondary { background-color: #6b7280 !important; }
+.badge.bg-primary { background-color: var(--violeta-principal) !important; }
+
+/* =============================================
+   BOTONES
+   ============================================= */
+.btn-primary {
+    background-color: var(--violeta-principal);
+    border-color: var(--violeta-principal);
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--violeta-hover);
+    border-color: var(--violeta-hover);
+    box-shadow: 0 4px 12px rgba(91, 33, 182, 0.3);
+}
+
+.btn-primary:disabled {
+    background-color: #a78bfa;
+    border-color: #a78bfa;
+}
+
+.btn-outline-primary {
+    color: var(--violeta-principal);
+    border-color: var(--violeta-principal);
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--violeta-principal);
+    border-color: var(--violeta-principal);
+    color: white;
+}
+
+.btn-success {
+    background-color: #059669;
+    border-color: #059669;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.btn-success:hover {
+    background-color: #047857;
+    border-color: #047857;
+}
+
+.btn-outline-secondary {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* =============================================
+   FORMULARIOS
+   ============================================= */
+.form-control, .form-select {
+    border-color: var(--borde);
+    border-radius: 8px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--violeta-medio);
+    box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15);
+}
+
+.form-label {
+    font-weight: 600;
+    color: var(--violeta-principal);
+    font-size: 0.9rem;
+}
+
+/* =============================================
+   TEMPORIZADOR (sala de subasta)
+   ============================================= */
+.temporizador {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--violeta-principal);
+    letter-spacing: -1px;
+}
+
+.temporizador.zona-critica {
+    color: #dc2626;
+    animation: parpadeo 1s infinite;
+}
+
+@keyframes parpadeo {
+    50% { opacity: 0.4; }
+}
+
+/* =============================================
+   HISTORIAL DE PUJAS (sala de subasta)
+   ============================================= */
+.list-group-item {
+    border-color: var(--borde);
+    font-size: 0.9rem;
+}
+
+.list-group-item:first-child {
+    border-radius: 8px 8px 0 0;
+}
+
+.list-group-item:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+/* =============================================
+   PANEL DE SALDO (billetera)
+   ============================================= */
+.card .text-warning { color: #d97706 !important; }
+.card .text-success { color: #059669 !important; }
+
+/* =============================================
+   PESTAÑAS (mis actividades)
+   ============================================= */
+.nav-tabs {
+    border-bottom: 2px solid var(--borde);
+}
+
+.nav-tabs .nav-link {
+    color: var(--texto-muted);
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.2s;
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--violeta-principal);
+    background-color: var(--violeta-claro);
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--violeta-principal);
+    border-bottom: 3px solid var(--violeta-principal);
+    background-color: transparent;
+}
+
+/* =============================================
+   TIEMPO CRÍTICO (catálogo)
+   ============================================= */
+.tiempo-critico {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+/* =============================================
+   ALERTS
+   ============================================= */
+.alert {
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+}
+
+.alert-success {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.alert-danger {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+/* =============================================
+   TABLA (historial de movimientos)
+   ============================================= */
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: var(--violeta-claro);
+    color: var(--violeta-principal);
+    font-weight: 700;
+    border: none;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.table tbody tr:hover {
+    background-color: var(--violeta-claro);
+}
+
+/* =============================================
+   PLACEHOLDER DE IMAGEN
+   ============================================= */
+.card-img-top[src^="data:image/svg"] {
+    background-color: var(--violeta-claro);
+}

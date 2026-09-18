@@ -12,7 +12,7 @@ using SubastaYa.Infraestructura;
 namespace SubastaYa.Infraestructura.Migrations
 {
     [DbContext(typeof(SubastaYaDbContext))]
-    [Migration("20260902224846_Init")]
+    [Migration("20260909231620_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -69,25 +69,27 @@ namespace SubastaYa.Infraestructura.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<decimal>("Saldo_Disponible")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<decimal>("Saldo_Retenido")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("Saldo_Total")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Usuario_Id")
                         .HasColumnType("int");
 
                     b.Property<byte[]>("Version")
+                        .IsConcurrencyToken()
                         .IsRequired()
-                        .HasColumnType("varbinary(max)");
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("rowversion");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Usuario_Id");
+                    b.HasIndex("Usuario_Id")
+                        .IsUnique();
 
                     b.ToTable("Billeteras");
                 });
@@ -128,6 +130,7 @@ namespace SubastaYa.Infraestructura.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("Monto")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Subasta_Id")
@@ -168,9 +171,11 @@ namespace SubastaYa.Infraestructura.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("Incremento_Minimo")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("Precio_Base")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Titulo")
@@ -185,8 +190,10 @@ namespace SubastaYa.Infraestructura.Migrations
                         .HasColumnType("int");
 
                     b.Property<byte[]>("Version")
+                        .IsConcurrencyToken()
                         .IsRequired()
-                        .HasColumnType("varbinary(max)");
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("rowversion");
 
                     b.HasKey("Id");
 
@@ -212,6 +219,7 @@ namespace SubastaYa.Infraestructura.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("Monto")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int?>("Subasta_Id")
@@ -240,7 +248,7 @@ namespace SubastaYa.Infraestructura.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("Fecha_Registro")
                         .HasColumnType("datetime2");
@@ -254,6 +262,9 @@ namespace SubastaYa.Infraestructura.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("Usuarios");
                 });

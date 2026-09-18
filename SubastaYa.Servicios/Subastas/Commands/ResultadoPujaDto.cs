@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace SubastaYa.Servicios.Subastas.Commands
+{
+    public class ResultadoPujaDto
+    {
+        public bool Exito { get; set; }
+        public string? MensajeError { get; set; }
+        public int StatusCode { get; set; }
+    }
+}

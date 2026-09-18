@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using SubastaYa.Dominio;
+using SubastaYa.Dominio.Repositorios;
+
+namespace SubastaYa.Infraestructura.Repositorios
+{
+    public class PujaRepository : Repository<Puja>, IPujaRepository
+    {
+        public PujaRepository(SubastaYaDbContext context) : base(context) { }
+
+        // Ya existía: trae todas las pujas de una subasta.
+        public async Task<List<Puja>> GetBySubastaIdAsync(int subastaId)
+        {
+            return await _context.Pujas.Where(p => p.Subasta_Id == subastaId).ToListAsync();
+        }
+
+        // NUEVO: implementación del método que agregamos a la interfaz.
+        // Filtra las pujas por Comprador_Id para saber en qué subastas participó
+        // un usuario sin tener que traer todas las pujas y filtrar en memoria.
+        public async Task<List<Puja>> GetByCompradorIdAsync(int compradorId)
+        {
+            return await _context.Pujas.Where(p => p.Comprador_Id == compradorId).ToListAsync();
+        }
+    }
+}

@@ -1,0 +1,36 @@
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Servicios.deps.json
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Servicios.dll
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Servicios.pdb
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Dominio.dll
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Infraestructura.dll
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Dominio.pdb
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Infraestructura.pdb
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.csproj.AssemblyReference.cache
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.GeneratedMSBuildEditorConfig.editorconfig
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.AssemblyInfoInputs.cache
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.AssemblyInfo.cs
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.csproj.CoreCompileInputs.cache
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.sourcelink.json
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaY.49F5CC08.Up2Date
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.dll
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\refint\SubastaYa.Servicios.dll
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.pdb
+E:\probabilidad\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\ref\SubastaYa.Servicios.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Servicios.deps.json
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Servicios.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Servicios.pdb
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Dominio.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Infraestructura.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Dominio.pdb
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\bin\Debug\net8.0\SubastaYa.Infraestructura.pdb
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.csproj.AssemblyReference.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.AssemblyInfoInputs.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.AssemblyInfo.cs
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.csproj.CoreCompileInputs.cache
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.sourcelink.json
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaY.49F5CC08.Up2Date
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\refint\SubastaYa.Servicios.dll
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\SubastaYa.Servicios.pdb
+D:\Desktop\Proyecto Bar\PaginaGirly\SubastaYa.Servicios\obj\Debug\net8.0\ref\SubastaYa.Servicios.dll
