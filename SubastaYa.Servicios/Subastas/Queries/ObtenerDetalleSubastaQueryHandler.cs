@@ -29,15 +29,12 @@ namespace SubastaYa.Servicios.Subastas.Queries
             var pujas = await _unitOfWork.Pujas.GetBySubastaIdAsync(subasta.Id);
             var ofertaMasAlta = pujas.Count > 0 ? pujas.Max(p => p.Monto) : subasta.Precio_Base;
 
-            // NUEVO: determina si el usuario que consulta (request.UsuarioId) es
-            // el autor de la puja líder actual. El frontend usa esto para
-            // mostrar el badge "Liderando"/"Superado" (Módulo 3 de la consigna).
             var pujaLider = pujas.OrderByDescending(p => p.Monto).FirstOrDefault();
             bool esLider = request.UsuarioId.HasValue &&
                            pujaLider != null &&
                            pujaLider.Comprador_Id == request.UsuarioId.Value;
 
-            // Cargamos usuarios para mostrar nombre anonimizado en el historial
+  
             var usuarios = await _unitOfWork.Usuarios.GetAllAsync();
             var historial = pujas
                 .OrderByDescending(p => p.Fecha_Puja)

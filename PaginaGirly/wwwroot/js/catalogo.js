@@ -58,8 +58,6 @@ function formatearTiempoRestante(fechaFinIso) {
     };
 }
 
-// Se llama cuando cambia el filtro, o al cargar la página, o cuando el
-// conjunto de subastas mostradas cambió realmente (se creó una nueva, etc.).
 function renderizarCatalogoCompleto(subastas) {
     const contenedor = document.getElementById("contenedorSubastas");
     contenedor.innerHTML = "";
@@ -99,8 +97,7 @@ function renderizarCatalogoCompleto(subastas) {
     idsRenderizadosActualmente = subastas.map(s => s.id);
 }
 
-// Se llama en cada poll: SOLO actualiza texto en las cards que ya existen,
-// nunca toca la imagen ni recrea el DOM.
+
 function actualizarCatalogoExistente(subastas) {
     subastas.forEach(s => {
         const card = document.querySelector(`[data-subasta-id="${s.id}"]`);
@@ -122,9 +119,7 @@ async function cargarSubastas() {
     const subastas = await obtenerSubastasDelBackend();
     const idsNuevos = subastas.map(s => s.id);
 
-    // Si el conjunto de subastas visibles es el mismo que ya está dibujado
-    // (mismos ids, mismo orden), solo actualizamos números. Si cambió
-    // (otro filtro, o se creó/desapareció una subasta), reconstruimos todo.
+
     const mismoConjunto =
         idsNuevos.length === idsRenderizadosActualmente.length &&
         idsNuevos.every((id, i) => id === idsRenderizadosActualmente[i]);

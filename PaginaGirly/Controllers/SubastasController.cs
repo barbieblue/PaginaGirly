@@ -9,7 +9,6 @@ namespace PaginaGirly.Controllers
     [ApiController]
     public class SubastasController : ControllerBase
     {
-        // Ya no recibe PujaService ni CatalogoService: solo el Mediator.
         private readonly IMediator _mediator;
 
         public SubastasController(IMediator mediator)
@@ -17,10 +16,6 @@ namespace PaginaGirly.Controllers
             _mediator = mediator;
         }
 
-        // GET /api/subastas?estado=ACTIVA&categoria=Tecnología&vendedorId=1&compradorId=2
-        // NUEVO: se agregaron vendedorId y compradorId como parámetros opcionales
-        // para soportar el Módulo 5 ("Mis Publicaciones" y "Mis Pujas").
-        // Los filtros ya existentes (estado, categoria) no se modificaron.
         [HttpGet]
         public async Task<IActionResult> GetSubastas(
             [FromQuery] string? estado,
@@ -39,8 +34,7 @@ namespace PaginaGirly.Controllers
         }
 
         // GET /api/subastas/{id}?usuarioId=2
-        // NUEVO: usuarioId opcional, para que el Handler calcule EsLider
-        // (Módulo 3: badge "Liderando"/"Superado").
+        // usuarioId opcional, para que el Handler calcule EsLider
         [HttpGet("{id}")]
         public async Task<IActionResult> GetDetalle(int id, [FromQuery] int? usuarioId)
         {

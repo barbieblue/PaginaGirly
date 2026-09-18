@@ -23,8 +23,6 @@ namespace SubastaYa.Infraestructura.Repositorios
 
         public IQueryable<Subasta> Consultar()
         {
-            // OJO: esto devuelve la consulta SIN ejecutar todavía (no trae datos
-            // de la base hasta que el Handler le agregue Where/Select y llame ToListAsync).
             return _context.Subastas.Include(s => s.Categoria).AsQueryable();
         }
     }

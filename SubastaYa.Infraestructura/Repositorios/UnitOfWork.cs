@@ -24,9 +24,6 @@ namespace SubastaYa.Infraestructura.Repositorios
         public UnitOfWork(SubastaYaDbContext context)
         {
             _context = context;
-            // Todos los repositorios comparten la MISMA instancia de _context,
-            // por eso cuando llamás SaveChangesAsync una sola vez, guarda
-            // los cambios de todos ellos juntos, atómicamente.
             Subastas = new SubastaRepository(context);
             Usuarios = new UsuarioRepository(context);
             Categorias = new CategoriaRepository(context);

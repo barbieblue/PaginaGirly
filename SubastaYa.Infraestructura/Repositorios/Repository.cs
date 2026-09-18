@@ -8,8 +8,7 @@ using SubastaYa.Dominio.Repositorios;
 
 namespace SubastaYa.Infraestructura.Repositorios
 {
-    // Implementación genérica: le hace de "traductor" a EF Core para
-    // cualquier entidad, sin repetir código en cada repositorio concreto.
+
     public class Repository<T> : IRepository<T> where T : class
     {
         protected readonly SubastaYaDbContext _context;

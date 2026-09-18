@@ -2,8 +2,6 @@
 
 namespace SubastaYa.Infraestructura
 {
-    // Esta clase no representa una tabla ni una entidad: es un "script" en C#
-    // que carga los datos de prueba obligatorios que pide la consigna del TP.
     public static class SeedData
     {
         public static void Inicializar(SubastaYaDbContext context)
@@ -31,8 +29,6 @@ namespace SubastaYa.Infraestructura
 
             context.Usuarios.AddRange(vendedor, comprador1, comprador2, sinFondos);
 
-            // Guardamos acá para que EF Core les asigne un Id real a usuarios y categorías
-            // antes de seguir — las billeteras y subastas de abajo necesitan esos Ids.
             context.SaveChanges();
 
             // ---------- 4 BILLETERAS (según los montos exactos que pide la consigna) ----------
@@ -105,7 +101,7 @@ namespace SubastaYa.Infraestructura
                 Incremento_Minimo = 3000,
                 Fecha_Inicio = ahora.AddDays(-3),
                 Fecha_Fin = ahora.AddMinutes(-10),
-                Estado = "ACTIVA" // el Worker (que armamos más adelante) la va a pasar a FINALIZADA
+                Estado = "ACTIVA" // el Worker la va a pasar a FINALIZADA
             };
 
             // Vencida desierta: fecha fin pasada, nunca tuvo pujas
@@ -144,7 +140,7 @@ namespace SubastaYa.Infraestructura
             {
                 Subasta_Id = subastaActivaEstandar.Id,
                 Comprador_Id = comprador1.Id,
-                Monto = 45000, // esta es la puja líder actual
+                Monto = 45000,
                 Fecha_Puja = ahora.AddMinutes(-20)
             };
 

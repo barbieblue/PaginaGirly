@@ -84,7 +84,7 @@ namespace SubastaYa.Servicios.Subastas.Commands
                     };
                 }
 
-                // --- Regla Anti-Sniping (Módulo 2.2) ---
+                // --- Regla Anti-Sniping  ---
                 var tiempoRestante = subasta.Fecha_Fin - DateTime.UtcNow;
                 if (tiempoRestante.TotalSeconds <= 60)
                 {
@@ -101,7 +101,7 @@ namespace SubastaYa.Servicios.Subastas.Commands
                     });
                 }
 
-                // --- Retención del nuevo postor (Módulo 2.1) ---
+                
                 billeteraNueva.Saldo_Retenido += request.Monto;
 
                 await _unitOfWork.Transacciones.AddAsync(new Transaccion_Ledger
@@ -113,7 +113,7 @@ namespace SubastaYa.Servicios.Subastas.Commands
                     Subasta_Id = subasta.Id
                 });
 
-                // --- Liberación automática del postor anterior (Módulo 2.1) ---
+             
                 if (pujaMaxima != null)
                 {
                     var billeteraAnterior = await _unitOfWork.Billeteras.GetByUsuarioIdAsync(pujaMaxima.Comprador_Id);
@@ -161,23 +161,15 @@ namespace SubastaYa.Servicios.Subastas.Commands
 
                 await _unitOfWork.Pujas.AddAsync(nuevaPuja);
 
-                // Fuerza un UPDATE sobre la fila de Subasta en TODA puja aceptada.
-                // Sin esto, una puja que no dispara anti-sniping no modifica la
-                // entidad, EF no emite UPDATE, y el chequeo de RowVersion nunca
-                // corre: dos pujas simultáneas pasarían ambas sin detectar el conflicto.
                 _unitOfWork.Subastas.Update(subasta);
 
-                // Un único SaveChangesAsync: todo lo de arriba se confirma
-                // (o se descarta) como una sola operación atómica.
+
                 await _unitOfWork.SaveChangesAsync();
 
                 return new ResultadoPujaDto { Exito = true, StatusCode = 200 };
             }
             catch (DbUpdateConcurrencyException)
             {
-                // No podemos usar _unitOfWork acá porque el contexto quedó en estado
-                // inválido tras la excepción. El log de concurrencia queda en el
-                // logger del sistema; el 409 le llega igual al cliente.
                 return new ResultadoPujaDto
                 {
                     Exito = false,

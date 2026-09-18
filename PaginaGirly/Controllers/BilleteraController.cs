@@ -9,8 +9,6 @@ namespace PaginaGirly.Controllers
     [Route("api/billetera")]
     public class BilleteraController : ControllerBase
     {
-        // El Controller ya no conoce ningún Service: solo arma el Command/Query
-        // y se lo manda al Mediator, que sabe qué Handler lo resuelve.
         private readonly IMediator _mediator;
 
         public BilleteraController(IMediator mediator)

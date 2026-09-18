@@ -52,8 +52,6 @@ namespace SubastaYa.Servicios.Subastas.Commands
 
             try
             {
-                // Acá es donde el Dominio aplica SUS PROPIAS reglas de negocio,
-                // no el Handler. Si algo está mal, tira la excepción.
                 nuevaSubasta.ValidarDatos();
             }
             catch (ArgumentException ex)

@@ -16,5 +16,3 @@ namespace SubastaYa.Infraestructura.Repositorios
         }
     }
 }
-
-// Ver errores

@@ -22,8 +22,6 @@ namespace SubastaYa.Dominio
         public decimal Monto { get; set; }
         public DateTime Fecha_Puja { get; set; }
 
-        // Regla de negocio: una puja con monto cero o negativo no tiene sentido,
-        // sin importar qué la haya generado.
         public void ValidarDatos()
         {
             if (Monto <= 0)

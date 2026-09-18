@@ -23,7 +23,7 @@ namespace PaginaGirly.Controllers
             return Ok(resultado);
         }
 
-        // GET /api/auditoria/SUBASTA/4
+        // GET /api/auditoria/SUBASTA/id
         [HttpGet("{entidad}/{entidadId}")]
         public async Task<IActionResult> GetPorEntidad(string entidad, int entidadId)
         {

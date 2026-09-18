@@ -8,8 +8,6 @@ using SubastaYa.Servicios.Abstracciones;
 
 namespace SubastaYa.Servicios.Categorias.Queries
 {
-    // No necesita ningún parámetro: siempre trae todas. Sigue siendo un
-    // IRequest válido aunque no tenga propiedades.
     public class ListarCategoriasQuery : IRequest<List<CategoriaDto>>
     {
     }
